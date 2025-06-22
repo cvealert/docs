@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+# Project information
+site_name: CVEalert.io Documentation
+site_url: https://docs.cvealert.io
