@@ -68,6 +68,7 @@ All commands are run from the root of the project, via the terminal:
 ## :package: Deployment
 
 Documentation is automatically deployed using **[GitHub Pages](https://docs.github.com/en/pages)**.
+
 Every commit pushed to the `main` branch triggers a **CI/CD workflow**, which:
 
 - Builds the site using MkDocs
