@@ -6,14 +6,16 @@ This is the source code for the CVEalert documentation available at **[docs.cvea
     <a target="_blank"
        rel="noopener"
        href="https://docs.cvealert.io"
-       title="Website link">
+       title="Website link"
+       style="text-decoration: none">
         <img alt="Static Badge"
              src="https://img.shields.io/badge/url-docs.cvealert.io-blue">
     </a>
     <a target="_blank"
        rel="noopener"
        href="https://stats.uptimerobot.com/CKfINonKI7/800786890"
-       title="Check uptime status on UptimeRobot">
+       title="Check uptime status on UptimeRobot"
+       style="text-decoration: none">
         <img alt="Uptime Robot status"
              src="https://img.shields.io/uptimerobot/status/m800786890-a85db00e97582eca4e966bf4">
     </a>
