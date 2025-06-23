@@ -1,0 +1,73 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+# Project information
+site_name: CVEalert.io Documentation
+site_url: https://docs.cvealert.io
+site_author: Kamil Vavra
+site_description: >-
+  CVEalert.io helps you stay ahead of security vulnerabilities by monitoring, alerting,
+  and managing CVEs in real time. Built for developers, teams, and security professionals.
+
+# Repository
+repo_name: cvealert/docs
+repo_url: https://github.com/cvealert/docs
+edit_uri: blob/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2025 CVEalert.io
+
+# Configuration
+theme:
+  name: material
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.tabs
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+  favicon: assets/logo.webp
+  logo: assets/logo.webp
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - privacy
+  - search
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: cs
+          name: Čeština
+          build: true
+          nav_translations:
+            Getting Started: Začínáme
+            Overview: Přehled
+            Registration: Registrace
+      docs_structure: folder
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/cvealert
+
+# Page tree
+nav:
+  - Getting Started:
+      - Overview: index.md
+      - Registration: registration.md
