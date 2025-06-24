@@ -1,4 +1,4 @@
-# Rychlý průvodce CVEalert
+# Rychlý průvodce CVEalert :book:
 
 Prozkoumejte průvodce a návody, jak začít používat SaaS webovou aplikaci [CVEalert.io](https://cvealert.io).
 
