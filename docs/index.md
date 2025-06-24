@@ -2,7 +2,7 @@
 
 Explore guides and tutorials to start using [CVEalert.io](https://cvealert.io) SaaS web application.
 
-## Welcome
+## :wave: Welcome
 
 Welcome to CVEalert Docs!
 
@@ -13,7 +13,7 @@ Welcome to CVEalert Docs!
 * `Settings` - Configure your workflows and generate insights from your data.
 * `API Reference` - Try the CVEalert API and develop on the platform.
 
-## Can't find something?
+## :mag: Can't find something?
 
 Our friendly, knowledgeable customer support engineers are here to help!
 

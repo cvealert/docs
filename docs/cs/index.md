@@ -2,7 +2,7 @@
 
 Prozkoumejte průvodce a návody, jak začít používat SaaS webovou aplikaci [CVEalert.io](https://cvealert.io).
 
-## Vítejte
+## :wave: Vítejte
 
 Vítejte v dokumentaci CVEalert!
 
@@ -13,7 +13,7 @@ Vítejte v dokumentaci CVEalert!
 * `Nastavení` - Nakonfigurujte své pracovní postupy a generujte přehledy ze svých dat.
 * `API Reference` - Vyzkoušejte API CVEalert a vyvíjejte na této platformě.
 
-## Nemůžete něco najít?
+## :mag: Nemůžete něco najít?
 
 Naši přátelští a zkušení specialisté zákaznické podpory jsou tu, aby vám pomohli!
 
