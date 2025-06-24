@@ -1,4 +1,4 @@
-# CVEalert Quick Start Guide
+# CVEalert Quick Start Guide :book:
 
 Explore guides and tutorials to start using [CVEalert.io](https://cvealert.io) SaaS web application.
 
