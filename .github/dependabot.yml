@@ -5,12 +5,17 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       time: "09:00"
       timezone: "Europe/Prague"
+    cooldown:
+      default-days: 7
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       time: "09:00"
       timezone: "Europe/Prague"
+    cooldown:
+      default-days: 7
