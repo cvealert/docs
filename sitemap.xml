@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://docs.cvealert.io/</loc>
+        <lastmod>2025-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.cvealert.io/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://docs.cvealert.io/cs/"/>
+    </url>
+    <url>
+        <loc>https://docs.cvealert.io/registration/</loc>
+        <lastmod>2025-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.cvealert.io/registration/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://docs.cvealert.io/cs/registration/"/>
+    </url>
+    <url>
+        <loc>https://docs.cvealert.io/cs/</loc>
+        <lastmod>2025-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://docs.cvealert.io/cs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.cvealert.io/"/>
+    </url>
+    <url>
+        <loc>https://docs.cvealert.io/cs/registration/</loc>
+        <lastmod>2025-12-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://docs.cvealert.io/cs/registration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.cvealert.io/registration/"/>
+    </url>
+</urlset>
