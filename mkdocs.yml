@@ -47,6 +47,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 # Plugins
 plugins:
@@ -59,7 +62,7 @@ plugins:
           default: true
           build: true
         - locale: cs
-          name: Čeština
+          name: Czech
           build: true
           nav_translations:
             Getting Started: Začínáme
@@ -78,3 +81,42 @@ nav:
   - Getting Started:
       - Overview: index.md
       - Registration: registration.md
+      - Login: login.md
+      - First Steps: first-steps.md
+  - Application: 
+      - Dashboard: app/dashboard.md
+      - Alerts: app/alerts.md
+      - CVE detail: app/cve.md
+  - Software:
+      - Monitoring: software/monitoring.md
+      - Catalog: software/catalog.md
+      - Search: software/search.md
+      - CVEs: software/cves.md
+      - Featured: software/featured.md
+  - Settings:
+      - Projects: settings/projects.md
+      - Webhooks: settings/webhooks.md
+      - User Settings: settings/user.md
+      - Logs: settings/logs.md
+      - Two-Factor Auth (2FA): settings/2fa.md
+
+
+
+
+
+  # - Projects:
+  #     - Project Overview: projects/index.md
+  #     - Invite Users: projects/invite.md
+  #     - Roles & Permissions: projects/roles.md
+  # - Settings:
+  #     - User Settings: settings/user.md
+  #     - Two-Factor Auth (2FA): settings/2fa.md
+  #     - Webhooks: settings/webhooks.md
+  #     - Logs: settings/logs.md
+  # - API Reference:
+  #     - Overview: api/index.md
+  #     - Swagger: api/swagger.md
+
+
+
+
