@@ -1,3 +1,7 @@
+---
+icon: lucide/folder-plus
+---
+
 # Software Catalog
 
 The **Software Catalog** lets you quickly discover, filter, and **add software** to your **monitoring list**.

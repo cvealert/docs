@@ -19,6 +19,7 @@ copyright: Copyright &copy; 2025 CVEalert.io
 # Configuration
 theme:
   name: material
+  language: en
   features:
     - content.action.edit
     - content.action.view
@@ -26,13 +27,15 @@ theme:
   palette:
     # Palette toggle for dark mode
     - scheme: slate
-      primary: black
+      primary: indigo
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
     # Palette toggle for light mode
     - scheme: default
-      primary: black
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
@@ -75,6 +78,13 @@ extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/cvealert
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Czech
+      link: /cs/
+      lang: cs
 
 # Page tree
 nav:

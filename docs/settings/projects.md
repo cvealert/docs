@@ -1,3 +1,7 @@
+---
+icon: lucide/archive
+---
+
 # Projects
 
 Projects are the main workspace in CVEalert.  

@@ -1,3 +1,7 @@
+---
+icon: lucide/clock-fading
+---
+
 ## Software Monitoring
 
 The **Software Monitoring** page allows you to control which software products your organization monitors for newly disclosed security vulnerabilities (CVEs). From here, you decide **what software to watch** and **how severe a vulnerability must be** before you receive alerts.

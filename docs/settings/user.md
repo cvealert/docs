@@ -1,3 +1,7 @@
+---
+icon: lucide/user-round
+---
+
 # User
 
 E-mail changes are **not supported** at this time.

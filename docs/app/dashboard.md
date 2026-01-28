@@ -1,3 +1,7 @@
+---
+icon: lucide/layout-dashboard
+---
+
 The **Dashboard** is your central monitoring hub in CVEalert.io. It gives you a real-time overview of recent vulnerability alerts, severity trends, affected software, and industry security news.
 
 !!! tip

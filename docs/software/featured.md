@@ -1,3 +1,7 @@
+---
+icon: lucide/star
+---
+
 # Featured Software
 
 Choose from the top tech stacks **commonly monitored by other companies** (updated daily).
