@@ -14,16 +14,21 @@ on:
 permissions: {}
 
 jobs:
-  mkdocs:
+  deploy:
     runs-on: ubuntu-slim
     permissions:
-      contents: write
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6.0.2 # zizmor: ignore[unpinned-uses]
         with:
-          persist-credentials: true # zizmor: ignore[artipacked]
+          persist-credentials: false
 
       - name: Configure Git Credentials
         run: |
@@ -40,10 +45,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run mkdocs
+      - name: Run zensical
         run: |
-          mkdocs --version
+          zensical --version
 
-      - name: Build and Deploy
+      - name: Build site
         run: |
-          mkdocs gh-deploy --force
+          zensical build --clean
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4 # zizmor: ignore[unpinned-uses]
+        with:
+          path: site
+
+      - name: Deploy pages
+        uses: actions/deploy-pages@v4 # zizmor: ignore[unpinned-uses]
+        id: deployment
