@@ -45,7 +45,7 @@ $ pip install -r requirements.txt
 When making changes to the site, including content updates, you can run a local development server with:
 
 ```bash
-$ mkdocs serve
+$ zensical serve
 ```
 
 This will start a server accessible at http://localhost:8000.
@@ -61,9 +61,9 @@ All commands are run from the root of the project, via the terminal:
 | Command                           | Action                                      |
 |:----------------------------------|:--------------------------------------------|
 | `pip install -r requirements.txt` | Installs Python dependencies                |
-| `mkdocs serve`                    | Starts local dev server at `localhost:8000` |
-| `mkdocs build`                    | Build your production site to `./site/`     |
-| `mkdocs -h`                       | Get help using the MkDocs CLI               |
+| `zensical serve`                    | Starts local dev server at `localhost:8000` |
+| `zensical build`                    | Build your production site to `./site/`     |
+| `zensical -h`                       | Get help using the MkDocs CLI               |
 
 ## :package: Deployment
 
@@ -71,7 +71,7 @@ Documentation is automatically deployed using **[GitHub Pages](https://docs.gith
 
 Every commit pushed to the `main` branch triggers a **CI/CD workflow**, which:
 
-- Builds the site using MkDocs
+- Builds the site using ~MkDocs~ (Zensical)
 - Copies the output to the `gh-pages` branch
 - Deploys it live to `docs.cvealert.io`
 
@@ -85,6 +85,7 @@ If you have feedback or are interested in contributing, please refer to our [Con
 
 ## :mag_right: Learn More
 
+- Edit: Migrated to [Zensical](https://github.com/cvealert/docs/issues/18)
 - Made with [Material for MkDocs](https://github.com/squidfunk/mkdocs-material), a powerful documentation framework on top of `MkDocs`.
 - [MkDocs](https://github.com/mkdocs/mkdocs) is a static site generator for project documentation written in Markdown.
 - We also use the [MkDocs static i18n plugin](https://github.com/ultrabug/mkdocs-static-i18n) to support multiple languages.
