@@ -1,3 +1,7 @@
+---
+icon: lucide/activity
+---
+
 # Logs
 
 ## Last successful login attempts

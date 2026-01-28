@@ -1,3 +1,7 @@
+---
+icon: lucide/user-round-plus
+---
+
 # Registration
 
 Find answers to your questions about creating an account and getting started with CVEalert.

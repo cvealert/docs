@@ -1,3 +1,7 @@
+---
+icon: lucide/message-circle-code
+---
+
 # Webhooks
 
 Webhooks allow you to receive **real-time CVE alerts** directly in your communication tools.

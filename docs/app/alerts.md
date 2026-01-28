@@ -1,3 +1,7 @@
+---
+icon: lucide/bell
+---
+
 # Alerts Page
 
 The **Alerts** page is your main workspace for monitoring, prioritizing, and managing security vulnerabilities detected across your software stack. It gives you a clear, actionable view of risks that require attention and keeping your security posture up to date.

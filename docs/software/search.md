@@ -1,3 +1,7 @@
+---
+icon: lucide/search
+---
+
 # Software Search
 
 Search for all software with **known CVEs**.
