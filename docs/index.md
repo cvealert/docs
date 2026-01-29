@@ -1,5 +1,6 @@
 ---
 icon: lucide/milestone
+title: Overview
 ---
 
 # CVEalert Quick Start Guide

@@ -1,4 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+#
+# https://zensical.org/docs/get-started/
 
 # Project information
 site_name: CVEalert.io Documentation
@@ -25,14 +27,14 @@ theme:
     - content.action.view
     - navigation.tabs
   palette:
-    # Palette toggle for dark mode
+    # Dark mode
     - scheme: slate
       primary: indigo
       accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-    # Palette toggle for light mode
+    # Light mode
     - scheme: default
       primary: indigo
       accent: indigo
@@ -53,38 +55,50 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 # Plugins
 plugins:
   - privacy
   - search
-  - i18n:
-      languages:
-        - locale: en
-          name: English
-          default: true
-          build: true
-        - locale: cs
-          name: Czech
-          build: true
-          nav_translations:
-            Getting Started: Začínáme
-            Overview: Přehled
-            Registration: Registrace
-      docs_structure: folder
+  # - i18n:
+  #     languages:
+  #       - locale: en
+  #         name: English
+  #         default: true
+  #         build: true
+  #       - locale: cs
+  #         name: Czech
+  #         build: true
+  #         nav_translations:
+  #           Getting Started: Začínáme
+  #           Overview: Přehled
+  #           Registration: Registrace
+  #     docs_structure: folder
 
 # Additional configuration
 extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/cvealert
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/cvealert/
+      name: LinkedIn
+    - icon: fontawesome/solid/battery-three-quarters
+      link: https://stats.uptimerobot.com/CKfINonKI7
+      name: Stagus Page
+    - icon: fontawesome/solid/envelope
+      link: mailto:info@cvealert.io
+      name: Email address
   alternate:
     - name: English
       link: /
       lang: en
-    - name: Czech
-      link: /cs/
-      lang: cs
+    # - name: Czech
+    #   link: /cs/
+    #   lang: cs
 
 # Page tree
 nav:
@@ -93,6 +107,7 @@ nav:
       - Registration: registration.md
       - Login: login.md
       - First Steps: first-steps.md
+      - FAQ: faq.md
   - Application: 
       - Dashboard: app/dashboard.md
       - Alerts: app/alerts.md
@@ -105,28 +120,14 @@ nav:
       - Featured: software/featured.md
   - Settings:
       - Projects: settings/projects.md
+      # - Projects:
+      #     - Project Overview: projects/index.md
+      #     - Invite Users: projects/invite.md
+      #     - Roles & Permissions: projects/roles.md
       - Webhooks: settings/webhooks.md
       - User Settings: settings/user.md
       - Logs: settings/logs.md
-      - Two-Factor Auth (2FA): settings/2fa.md
-
-
-
-
-
-  # - Projects:
-  #     - Project Overview: projects/index.md
-  #     - Invite Users: projects/invite.md
-  #     - Roles & Permissions: projects/roles.md
-  # - Settings:
-  #     - User Settings: settings/user.md
-  #     - Two-Factor Auth (2FA): settings/2fa.md
-  #     - Webhooks: settings/webhooks.md
-  #     - Logs: settings/logs.md
+      - Two-Factor Auth: settings/2fa.md
   # - API Reference:
   #     - Overview: api/index.md
   #     - Swagger: api/swagger.md
-
-
-
-

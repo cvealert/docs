@@ -4,11 +4,32 @@ icon: lucide/message-circle-code
 
 # Webhooks
 
-Webhooks allow you to receive **real-time CVE alerts** directly in your communication tools.
+Webhooks allow you to receive real-time CVE alerts directly in your communication tools, enabling fast response to newly disclosed vulnerabilities.
 
-Use webhooks to notify your team instantly when new vulnerabilities affect software you’re monitoring.
+!!! info
+    Webhooks are ideal for automation and team notifications when integrating CVE alerts into external systems.
 
-![screenshot](../assets/img/webhooks.png)
+---
+
+## Page Overview
+
+### When to use this page
+- When setting up real-time notifications for new CVEs
+- When integrating CVE alerts into team communication tools
+- When validating or updating an existing webhook configuration
+- When automating vulnerability notifications
+
+### What you can do
+- Configure a webhook for receiving CVE alerts
+- Send test alerts to verify webhook functionality
+- Update or remove existing webhook configurations
+- Review the structure and content of webhook alert messages
+
+### At a Glance
+- One webhook per project
+- Supported integrations (e.g. Slack)
+- Test and validation controls
+- CVE alert payload contents
 
 ---
 

@@ -1,34 +1,37 @@
 ---
 icon: lucide/bell
+title: Alerts
 ---
 
-# Alerts Page
+# Alerts
 
-The **Alerts** page is your main workspace for monitoring, prioritizing, and managing security vulnerabilities detected across your software stack. It gives you a clear, actionable view of risks that require attention and keeping your security posture up to date.
+The **Alerts** page is your main workspace for monitoring, prioritizing, and managing security vulnerabilities detected across your software stack. It provides a clear, actionable view of risks that require attention.
 
 !!! tip
     Start your daily review by filtering **Critical + KEV** alerts to catch the most urgent risks.
-
-This page is designed for:
-
-- Security and IT teams
-- DevOps and engineering leads
-- Anyone responsible for vulnerability management
-
-You will typically visit this page after connecting software assets or when reviewing newly discovered vulnerabilities.
 
 ---
 
 ## Page Overview
 
-The Alerts page provides:
+### When to use this page
+- After vulnerabilities are detected for monitored software
+- When reviewing newly disclosed or updated CVEs
+- When prioritizing remediation work based on severity or exploitability
+- When tracking the status of vulnerability response over time
 
-- A **list of detected CVEs**, grouped and paginated
-- **Severity and status filters** to narrow down what matters most
-- **Bulk actions** to update alert statuses
-- **Search and pagination controls** for large environments
+### What you can do
+- Review detected vulnerability alerts across your software stack
+- Filter alerts by severity, status, exploitability, or KEV inclusion
+- Search alerts by CVE ID, vendor, or software
+- Update alert statuses individually or in bulk
+- Track remediation progress from discovery to resolution
 
-Each alert represents a single vulnerability affecting a specific vendor and software.
+### At a Glance
+- A paginated list of detected CVEs affecting monitored software
+- Severity and remediation status filters
+- Bulk actions for updating alert status
+- Search and pagination controls for large environments
 
 !!! warning
     Marking an alert as **Fixed** does not verify remediation automatically—it reflects your internal tracking decision.
@@ -92,6 +95,8 @@ On the right side of the filter bar:
 ---
 
 ### Alerts List
+
+Each alert represents a single vulnerability affecting a specific vendor and software.
 
 Each alert row displays:
 

@@ -2,22 +2,36 @@
 icon: lucide/layout-dashboard
 ---
 
+# Dashboard
+
 The **Dashboard** is your central monitoring hub in CVEalert.io. It gives you a real-time overview of recent vulnerability alerts, severity trends, affected software, and industry security news.
 
 !!! tip
     Check the dashboard daily to catch newly disclosed critical vulnerabilities early.
 
-## Dashboard Overview
+---
 
-### Who should use this page?
-- Security analysts and IT administrators monitoring vulnerabilities
-- Team leads reviewing security posture at a glance
-- Anyone responsible for patching or risk management
+## Page Overview
 
-### When to use it
-- Daily security monitoring
-- Prioritizing remediation tasks
-- Reviewing recent critical threats affecting your environment
+### When to use this page
+- As a daily starting point for security monitoring
+- When you want a high-level view of recent vulnerabilities and alerts
+- When prioritizing which software or CVEs need immediate attention
+- When tracking overall severity trends across your environment
+
+### What you can do
+- Get a real-time overview of recent vulnerability alerts
+- Identify critical and high-severity issues at a glance
+- See which software products are generating the most alerts
+- Monitor severity trends over time
+- Stay informed about actively exploited vulnerabilities and security news
+
+### At a Glance
+- Latest vulnerability alerts detected across monitored software
+- Severity trends over the last 30 days
+- Software generating the highest number of alerts
+- Actively exploited vulnerabilities (KEV)
+- Curated cybersecurity news and advisories
 
 !!! warning
     Vulnerabilities listed in the **KEV** section are actively exploited and should be treated as urgent.
