@@ -1,35 +1,36 @@
 ---
 icon: lucide/clock-fading
+title: Monitoring
 ---
 
-## Software Monitoring
+# Software Monitoring
 
-The **Software Monitoring** page allows you to control which software products your organization monitors for newly disclosed security vulnerabilities (CVEs). From here, you decide **what software to watch** and **how severe a vulnerability must be** before you receive alerts.
+The **Software Monitoring** page allows you to control which software products your organization monitors for newly disclosed security vulnerabilities (CVEs).
 
-This page is typically used by:
+From here, you decide what software to watch and how severe a vulnerability must be before it generates alerts.
 
-- Security teams
-- IT administrators
-- Anyone responsible for vulnerability awareness and patching
-
-You’ll visit this page when you want to:
-
-- Add new software or platforms to monitor
-- Adjust alert sensitivity for existing software
-- Reduce alert noise or tighten security thresholds
+!!! info
+    Alert thresholds control which CVEs generate alerts. All CVEs remain visible on the software’s CVE page, while alerts are limited to reduce noise.
 
 ---
 
 ## Page Overview
 
-At a glance, this page shows:
+### When to use this page
+- When adding new software or platforms to monitoring
+- When adjusting alert sensitivity for existing software
+- When reducing alert noise or tightening security thresholds
 
-- A list of monitored software products
-- Each product’s vendor, platform name, and category
-- The **current severity threshold** that triggers alerts
+### What you can do
+- Add or remove software from monitoring
+- Adjust alert thresholds per software product
+- Review current monitoring configuration
+
+### At a Glance
+- List of monitored software products
+- Vendor, product, and category per entry
+- Configured alert severity thresholds
 - Controls to add, update, or remove monitored items
-
-The total number of monitored items appears in the page title (e.g. **Software Monitoring (18)**).
 
 ---
 

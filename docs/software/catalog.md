@@ -1,26 +1,38 @@
 ---
 icon: lucide/folder-plus
+title: Catalog
 ---
 
 # Software Catalog
 
-The **Software Catalog** lets you quickly discover, filter, and **add software** to your **monitoring list**.
+The **Software Catalog** lets you quickly discover, filter, and add commonly used software to your monitoring list.
 
-We curate the most commonly used tools across **modern tech stacks** so you can start monitoring vulnerabilities without manual setup or guesswork.
+It’s designed to help you start monitoring without needing to know exact product names up front.
+
+!!! info
+    The Catalog is curated and category-driven, making it ideal for exploration—use Search when you know exactly what you’re looking for.
 
 ---
 
-## What You Can Do
+## Page Overview
 
-From the Software Catalog, you can:
+### When to use this page
+- When exploring available software to add to your monitoring scope
+- When building or expanding monitoring coverage across your tech stack
+- When you want a curated starting point instead of searching manually
 
+### What you can do
 - Browse a curated list of popular software and services
 - Filter software by category, vendor, or name
-- Explore software grouped by use case (e.g. Frameworks, Databases, Security)
+- Explore software grouped by real-world use cases
 - Add selected software to your monitoring list
-- Instantly see how many known CVEs are associated with each tool
+- See how many known CVEs are associated with each tool
 
-![screenshot](../assets/img/catalog.png)
+### At a Glance
+- Curated list of commonly used software
+- Category-based organization
+- CVE counts per software
+- Bulk selection and monitoring actions
 
 ---
 
