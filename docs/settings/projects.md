@@ -4,12 +4,34 @@ icon: lucide/archive
 
 # Projects
 
-Projects are the main workspace in CVEalert.  
-Each project represents a company, team, or environment and defines **who has access** and **what is being monitored**.
+Projects are the main workspace in CVEalert. Each project represents a company, team, or environment and defines who has access and what is being monitored.
 
 All monitoring, alerts, users, and integrations belong to a project.
 
-![screenshot](../assets/img/projects.png)
+!!! info
+    Most features in CVEalert are scoped to a project—make sure you’re in the correct project before making changes.
+
+---
+
+## Page Overview
+
+### When to use this page
+- When setting up a new project or workspace
+- When managing users, roles, or access permissions
+- When reviewing project limits, usage, or subscription details
+- When administering monitoring and collaboration settings
+
+### What you can do
+- View project configuration, usage, and subscription information
+- Manage users, invitations, and access roles
+- Control who can view or manage monitoring and alerts
+- Access billing, invoices, and project-level settings
+
+### At a Glance
+- Project metadata and subscription details
+- User and role assignments
+- Monitoring and notification usage
+- Webhook and integration status
 
 ---
 
