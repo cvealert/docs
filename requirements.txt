@@ -1,4 +1,4 @@
-mkdocs-material==9.7.1
+mkdocs-material==9.7.2
 mkdocs-static-i18n==1.3.0
 mkdocs==1.6.1
 zensical==0.0.19
