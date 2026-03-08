@@ -107,9 +107,9 @@ nav:
   - Getting Started:
       - Overview: index.md
       - Preview: preview.md
+      - First Steps: first-steps.md
       - Registration: registration.md
       - Login: login.md
-      - First Steps: first-steps.md
       - FAQ: faq.md
   - Application: 
       - Dashboard: app/dashboard.md
