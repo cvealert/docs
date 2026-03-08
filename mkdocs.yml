@@ -57,6 +57,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+  - md_in_html
+  - pymdownx.blocks.caption
 
 # Plugins
 plugins:
@@ -104,6 +106,7 @@ extra:
 nav:
   - Getting Started:
       - Overview: index.md
+      - Preview: preview.md
       - Registration: registration.md
       - Login: login.md
       - First Steps: first-steps.md
