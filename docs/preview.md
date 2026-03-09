@@ -69,7 +69,7 @@ The [Dashboard](app/dashboard/){ data-preview } is your central monitoring hub i
 
 [Projects](settings/projects/){ data-preview } are the main workspace in CVEalert. Each project represents a company, team, or environment and defines who has access and what is being monitored.
 
-![Image title](assets/img/preview/04_projects.webp){ loading=lazy }
+![Image title](assets/img/preview/08_projects.webp){ loading=lazy }
 /// caption
 **Projects** - manage organization settings
 ///
