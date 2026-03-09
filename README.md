@@ -75,7 +75,7 @@ Every commit pushed to the `main` branch triggers a **CI/CD workflow**, which:
 - Copies the output to the `gh-pages` branch
 - Deploys it live to `docs.cvealert.io`
 
-Just open a pull request with your changes. We’ll take care of the rest, and your updates go live!
+Just open a pull request with your changes. We'll take care of the rest, and your updates go live!
 
 ## :handshake: Contributing to CVEalert Docs
 

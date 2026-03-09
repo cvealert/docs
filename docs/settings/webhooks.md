@@ -54,7 +54,7 @@ Slack webhooks let you receive CVE alerts directly in a Slack channel.
 
 ### Configuration Fields
 
-When configuring a Slack webhook, you’ll need to provide:
+When configuring a Slack webhook, you'll need to provide:
 
 - **Name**  
   A friendly name for the webhook (e.g. `Incoming Webhooks`)

@@ -10,7 +10,7 @@ The **Software Monitoring** page allows you to control which software products y
 From here, you decide what software to watch and how severe a vulnerability must be before it generates alerts.
 
 !!! info
-    Alert thresholds control which CVEs generate alerts. All CVEs remain visible on the software’s CVE page, while alerts are limited to reduce noise.
+    Alert thresholds control which CVEs generate alerts. All CVEs remain visible on the software's CVE page, while alerts are limited to reduce noise.
 
 ---
 
@@ -45,7 +45,7 @@ From here, you decide what software to watch and how severe a vulnerability must
 
 **Save changes**
 
-- Applies any severity threshold changes you’ve made.
+- Applies any severity threshold changes you've made.
 - Changes are **not active** until you click this button.
 
 **Discard changes**
@@ -90,8 +90,8 @@ Available options:
 
 For example:
 
-- If set to **Critical**, you’ll only receive alerts for critical CVEs
-- If set to **Medium**, you’ll receive alerts for medium, high, and critical CVEs
+- If set to **Critical**, you'll only receive alerts for critical CVEs
+- If set to **Medium**, you'll receive alerts for medium, high, and critical CVEs
 
 ---
 
@@ -112,14 +112,14 @@ At the bottom of the list, the **Add CPE**, **Save changes**, and **Discard chan
 5. Alerts will now follow the updated rule.
 
 **Expected outcome:**  
-You’ll only receive alerts that meet or exceed the chosen severity level.
+You'll only receive alerts that meet or exceed the chosen severity level.
 
 ---
 
 ### Add New Software to Monitor
 
 1. Click **Add CPE**.
-2. Search for or enter the software’s CPE identifier.
+2. Search for or enter the software's CPE identifier.
 3. Confirm the selection.
 4. Set an appropriate alert severity.
 5. Click **Save changes**.
