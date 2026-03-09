@@ -10,7 +10,7 @@ The **Software Search** page allows you to find applications and vendors with kn
 This is typically the **starting point** when onboarding or expanding your monitoring scope.
 
 !!! tip
-    Start with a vendor name if you’re unsure of the exact product—this helps ensure complete coverage.
+    Start with a vendor name if you're unsure of the exact product, this helps ensure complete coverage.
 
 ---
 
@@ -146,7 +146,7 @@ You will begin receiving alerts when new CVEs are published for the selected sof
     Some vendors publish multiple software packages with similar names. Always verify the **Software** column before enabling monitoring.
 
 !!! warning
-    A high CVE count does not necessarily mean the software is insecure today—it may simply be widely used or have a long history.
+    A high CVE count does not necessarily mean the software is insecure today, it may simply be widely used or have a long history.
 
 ---
 

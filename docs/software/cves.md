@@ -114,7 +114,7 @@ Each row represents a single vulnerability affecting the software.
 ## Step-by-Step: Reviewing CVEs
 
 1. **Confirm the software name**
-    - Check the page title to ensure you’re viewing the correct product
+    - Check the page title to ensure you're viewing the correct product
 
 2. **Scan severity levels**
     - Prioritize **High** and **Medium** severity CVEs first

@@ -39,7 +39,7 @@ This page is available under:
 
 `Settings / Logs`
 
-At the top, you’ll find a short explanation of what the page currently tracks:
+At the top, you'll find a short explanation of what the page currently tracks:
 
 - Successful login attempts
 - Password changes
@@ -134,8 +134,8 @@ At the bottom of the table, pagination controls allow you to browse older login 
 !!! warning
     If you see:
     - An unfamiliar IP address  
-    - A location you’ve never logged in from  
-    - A device or browser you don’t recognize  
+    - A location you've never logged in from  
+    - A device or browser you don't recognize  
 
     Change your password immediately and enable **two-factor authentication (2FA)**.
 

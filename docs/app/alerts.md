@@ -34,7 +34,7 @@ The **Alerts** page is your main workspace for monitoring, prioritizing, and man
 - Search and pagination controls for large environments
 
 !!! warning
-    Marking an alert as **Fixed** does not verify remediation automatically—it reflects your internal tracking decision.
+    Marking an alert as **Fixed** does not verify remediation automatically, it reflects your internal tracking decision.
 
 ---
 
@@ -168,8 +168,8 @@ Use these to navigate through large alert sets.
 
 - Status colors and borders are visually consistent across the UI for quick scanning.
 - The Edit dropdown remains intentionally disabled until a selection is made to prevent accidental changes.
-- Pagination and filters work together—changing filters may reduce total page count.
+- Pagination and filters work together, changing filters may reduce total page count.
 
 ---
 
-_If something on this page behaves differently than expected, it may depend on your organization’s alert ingestion or project configuration. When unsure, treat alerts as **Unknown** until verified._
+_If something on this page behaves differently than expected, it may depend on your organization's alert ingestion or project configuration. When unsure, treat alerts as **Unknown** until verified._

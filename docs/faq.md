@@ -6,7 +6,7 @@ title: FAQ
 # Frequently Asked Questions
 
 !!! tip "Need more help?"
-    If this section doesn’t answer your question, please contact us at
+    If this section doesn't answer your question, please contact us at
     [info@cvealert.io](mailto:info@cvealert.io) so we can assist you or improve
     the documentation.
 
@@ -36,7 +36,7 @@ title: FAQ
 
 	Most users can start monitoring meaningful software within a few minutes.
 
-??? question "I’m not a security expert — can I still use CVEalert?"
+??? question "I'm not a security expert, can I still use CVEalert?"
 	Yes. CVEalert is intentionally designed to be usable without deep security knowledge.
 
 	The platform focuses on:
@@ -55,7 +55,7 @@ title: FAQ
 	- Browsers and runtimes
 	- Frameworks and platforms your applications depend on
 
-	If you’re unsure, the **Featured Software** and **Catalog** pages provide curated starting points based on commonly monitored tools.
+	If you're unsure, the **Featured Software** and **Catalog** pages provide curated starting points based on commonly monitored tools.
 
 ---
 
@@ -78,7 +78,7 @@ title: FAQ
 	!!! note
 	    You can always see the full list of CVEs for a software product on its CVEs page, even if lower-severity issues do not trigger alerts.
 
-??? question "Why don’t I see some CVEs in the Alerts page?"
+??? question "Why don't I see some CVEs in the Alerts page?"
 	The Alerts page only shows CVEs that meet or exceed the severity threshold configured for that software.
 
 	This design helps reduce noise and focus attention on vulnerabilities that are most relevant to you.
@@ -163,7 +163,7 @@ title: FAQ
 	Additional integrations may be added over time.
 
 ??? question "Can you support custom or enterprise use cases?"
-	Possibly. If you have requirements that are not currently covered—such as custom limits, integrations, or workflows—you can reach out to **info@cvealert.io** to discuss options.
+	Possibly. If you have requirements that are not currently covered. Such as custom limits, integrations, or workflows. You can reach out to **info@cvealert.io** to discuss options.
 
 	> _Placeholder: enterprise features and offerings may evolve over time._
 

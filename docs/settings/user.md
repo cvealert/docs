@@ -160,5 +160,5 @@ This section allows you to securely update your account password.
 - Password changes may invalidate existing sessions (assumption based on standard security practice).
 
 !!! note
-    If some behavior differs (e.g., session invalidation), refer to your organization’s security policy or contact support.
+    If some behavior differs (e.g., session invalidation), refer to your organization's security policy or contact support.
 

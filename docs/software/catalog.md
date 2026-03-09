@@ -7,10 +7,10 @@ title: Catalog
 
 The **Software Catalog** lets you quickly discover, filter, and add commonly used software to your monitoring list.
 
-It’s designed to help you start monitoring without needing to know exact product names up front.
+It's designed to help you start monitoring without needing to know exact product names up front.
 
 !!! info
-    The Catalog is curated and category-driven, making it ideal for exploration—use Search when you know exactly what you’re looking for.
+    The Catalog is curated and category-driven, making it ideal for exploration. Use Search when you know exactly what you're looking for.
 
 ---
 
@@ -58,7 +58,7 @@ Use the search bar at the top of the catalog to:
 - Search by **software name**
 - Quickly narrow down large lists
 
-This is especially useful when you already know what you’re looking for.
+This is especially useful when you already know what you're looking for.
 
 ---
 
@@ -126,7 +126,7 @@ To start monitoring software:
 2. Click **Add selected to monitoring**
 3. The software is now tracked for new CVEs and security alerts
 
-Once added, you’ll receive alerts whenever new vulnerabilities are discovered.
+Once added, you'll receive alerts whenever new vulnerabilities are discovered.
 
 ---
 

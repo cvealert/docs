@@ -19,7 +19,7 @@ It helps new users quickly add widely used technologies without manual research.
 ### When to use this page
 - During initial onboarding to quickly start monitoring common software
 - When expanding monitoring to include widely used platforms or tools
-- When you’re unsure which software products to monitor first
+- When you're unsure which software products to monitor first
 
 ### What you can do
 - Browse commonly monitored and high-interest software
@@ -64,8 +64,8 @@ Examples include:
 
 This allows you to easily see:
 
-- What you’ve already added
-- What new software you’re about to include
+- What you've already added
+- What new software you're about to include
 
 ---
 
@@ -115,7 +115,7 @@ You will begin receiving alerts for new CVEs affecting the selected software.
     The featured list is dynamic and may change as monitoring trends evolve.
 
 !!! warning
-    Monitoring software does not mean you are affected—always validate whether the software is actually deployed in your environment.
+    Monitoring software does not mean you are affected, always validate whether the software is actually deployed in your environment.
 
 ---
 

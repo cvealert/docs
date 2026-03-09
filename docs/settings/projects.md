@@ -9,7 +9,7 @@ Projects are the main workspace in CVEalert. Each project represents a company, 
 All monitoring, alerts, users, and integrations belong to a project.
 
 !!! info
-    Most features in CVEalert are scoped to a project—make sure you’re in the correct project before making changes.
+    Most features in CVEalert are scoped to a project, make sure you're in the correct project before making changes.
 
 ---
 
@@ -95,7 +95,7 @@ Admins can resend or remove invitations at any time.
 
 To add a new user to a project:
 
-1. Enter the user’s email address
+1. Enter the user's email address
 2. Select a role
 3. Send the invitation
 
