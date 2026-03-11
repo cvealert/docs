@@ -6,12 +6,11 @@ config:
   # Ignore
   MD007: false  # Unordered list indentation
   MD013: false  # Line length
-  MD025: false  # Multiple top-level headings (should enable?)
+  MD025: false  # Multiple top-level headings (TODO: enable this?)
   MD030: false  # Spaces after list markers
   MD033: false  # Inline HTML
   MD049:
     style: underscore
-  MD036: false # idk
 
 globs:
   - "docs/**/*.md"
