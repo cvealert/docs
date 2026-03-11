@@ -1,0 +1,32 @@
+# https://github.com/DavidAnson/markdownlint-cli2-action
+# https://github.com/DavidAnson/markdownlint-cli2
+
+name: Lint - Markdown
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**/*.md'
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-slim
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6.0.2 # zizmor: ignore[unpinned-uses]
+        with:
+          persist-credentials: false
+
+      - name: Run markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v22 # zizmor: ignore[unpinned-uses]
+        with:
+          config: '.markdownlint-cli2.yaml'
