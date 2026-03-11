@@ -4,7 +4,7 @@ icon: lucide/scan-search
 
 # Application Preview
 
-### Software Catalog
+## Software Catalog
 
 The [Software Catalog](software/catalog/){ data-preview } lets you quickly discover, filter, and add commonly used software to your monitoring list.
 
@@ -15,7 +15,7 @@ Add software to monitoring
 
 ---
 
-### Software Monitoring
+## Software Monitoring
 
 The [Software Monitoring](software/monitoring/){ data-preview } page allows you to control which software products your organization monitors for newly disclosed security vulnerabilities (CVEs).
 
@@ -26,7 +26,7 @@ Manage monitored software
 
 ---
 
-### Software CVEs
+## Software CVEs
 
 The [Software CVEs](software/cves/){ data-preview } for a Software page shows all known Common Vulnerabilities and Exposures (CVEs) associated with a specific software product.
 
@@ -37,7 +37,7 @@ Search product vulnerabilities
 
 ---
 
-### Alerts
+## Alerts
 
 The [Alerts](app/alerts/){ data-preview } page is your main workspace for monitoring, prioritizing, and managing security vulnerabilities detected across your software stack.
 
@@ -48,7 +48,7 @@ Triage detected vulnerabilities
 
 ---
 
-### CVE Detail
+## CVE Detail
 
 [CVE Detail](app/cve/){ data-preview } foo TODO
 
@@ -59,7 +59,7 @@ Triage detected vulnerabilities
 
 ---
 
-### Dashboard
+## Dashboard
 
 The [Dashboard](app/dashboard/){ data-preview } is your central monitoring hub in CVEalert.io. It gives you a real-time overview of recent vulnerability alerts, severity trends, affected software, and industry security news.
 
@@ -70,7 +70,7 @@ Recent alerts and trends
 
 ---
 
-### Webhooks
+## Webhooks
 
 [Webhooks](settings/webhooks/){ data-preview } allow you to receive real-time CVE alerts directly in your communication tools, enabling fast response to newly disclosed vulnerabilities.
 
@@ -81,7 +81,7 @@ Configure alert integrations
 
 ---
 
-### Projects
+## Projects
 
 [Projects](settings/projects/){ data-preview } are the main workspace in CVEalert. Each project represents a company, team, or environment and defines who has access and what is being monitored.
 

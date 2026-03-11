@@ -41,17 +41,17 @@ From here, you decide what software to watch and how severe a vulnerability must
 
 ### Header Actions
 
-**Add CPE**
+#### Add CPE
 
 - Opens a workflow to add a new software product using its CPE (Common Platform Enumeration).
 - Use this when the software you want to monitor is not already listed.
 
-**Save changes**
+##### Save changes
 
 - Applies any severity threshold changes you've made.
 - Changes are **not active** until you click this button.
 
-**Discard changes**
+##### Discard changes
 
 - Reverts all unsaved changes made during this session.
 

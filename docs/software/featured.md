@@ -44,7 +44,7 @@ The main area of the page displays a **grid of software cards**.
 
 Each card represents a single software product.
 
-**Card Contents**
+#### Card Contents
 
 - **Software logo**
 - **Vendor name**

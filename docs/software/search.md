@@ -45,7 +45,7 @@ This is typically the **starting point** when onboarding or expanding your monit
 
 This section lets you define how you want to search the catalog.
 
-**Search Input**
+#### Search Input
 
 - Placeholder: `Enter a search term (e.g. "atlassian")`
 - Accepts:
@@ -53,7 +53,7 @@ This section lets you define how you want to search the catalog.
     - Software names (e.g., `Apache`)
     - Partial matches (e.g., `astro`)
 
-**Search Scope Dropdown**
+#### Search Scope Dropdown
 
 - Default option: `Vendor or Software`
 - Controls whether the search term applies to:
@@ -61,7 +61,7 @@ This section lets you define how you want to search the catalog.
     - Software names
     - (Other options may appear depending on configuration)
 
-**Search Button**
+#### Search Button
 
 - Executes the search using the entered term and selected scope
 
@@ -71,7 +71,7 @@ This section lets you define how you want to search the catalog.
 
 Once a search is performed, matching results appear in a table.
 
-**Columns**
+#### Columns
 
 - **Checkbox**
     - Select one or more software entries for bulk actions
@@ -94,7 +94,7 @@ Once a search is performed, matching results appear in a table.
     - Indicates whether the software is already being monitored
     - A checkmark (`✓`) means monitoring is active
 
-**Results Count**
+#### Results Count
 
 - Displayed above the table (e.g., `31 results`)
 - Helps confirm how many matches were found

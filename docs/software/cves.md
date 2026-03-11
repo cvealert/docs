@@ -43,23 +43,23 @@ This page is used for investigation, prioritization, and risk assessment.
 
 This bar lets you refine which CVEs are shown.
 
-**Search Input**
+#### Search Input
 
 - Pre-filled with: `astro`
 - Can be used to:
   - Narrow results further
   - Search within CVE identifiers
 
-**Scope Dropdown**
+#### Scope Dropdown
 
 - Set to: `Software`
 - Indicates the search is scoped to the selected software product
 
-**Search Button**
+#### Search Button
 
 - Applies the filter and refreshes the table
 
-**Result Limit**
+#### Result Limit
 
 - Displayed on the right (e.g., `Max 14 results`)
 - Indicates how many CVEs are currently shown
@@ -70,47 +70,57 @@ This bar lets you refine which CVEs are shown.
 
 Each row represents a single vulnerability affecting the software.
 
-**Columns**
+#### Columns
 
-- **CVE**
-    - The official CVE identifier (e.g., `CVE-2025-66202`)
-    - Can be used for external research or patch tracking
+##### CVE
 
-- **Severity**
-    - CVSS score and severity level
-    - Color-coded for quick risk assessment:
-        - Green: Low
-        - Yellow: Medium
-        - Orange/Red: High
+- The official CVE identifier (e.g., `CVE-2025-66202`)
+- Can be used for external research or patch tracking
 
-- **Vendor**
-    - Organization responsible for the software
+##### Severity
 
-- **Software**
-    - Product affected by the CVE
+- CVSS score and severity level
+- Color-coded for quick risk assessment:
+    - Green: Low
+    - Yellow: Medium
+    - Orange/Red: High
 
-- **Monitoring**
-    - Checkmark (`✓`) indicates the software is actively monitored
+##### Vendor
 
-- **Alert**
-    - Indicates whether alerts are enabled for this CVE
-    - An `X` typically means no alert has been triggered or configured yet
+- Organization responsible for the software
 
-- **Status**
-    - Reserved for CVE lifecycle or remediation status
-    - May be empty depending on configuration
+##### Software
 
-- **Published**
-    - Date the CVE was first published
-    - Includes relative timing (e.g., “70 days ago”)
+- Product affected by the CVE
 
-- **Modified**
-    - Last time the CVE entry was updated
-    - Useful for tracking changes in severity or details
+##### Monitoring
 
-- **Notified**
-    - Indicates when your organization was last notified
-    - May be empty if no alert was sent
+- Checkmark (`✓`) indicates the software is actively monitored
+
+##### Alert
+
+- Indicates whether alerts are enabled for this CVE
+- An `X` typically means no alert has been triggered or configured yet
+
+##### Status
+
+- Reserved for CVE lifecycle or remediation status
+- May be empty depending on configuration
+
+##### Published
+
+- Date the CVE was first published
+- Includes relative timing (e.g., “70 days ago”)
+
+##### Modified
+
+- Last time the CVE entry was updated
+- Useful for tracking changes in severity or details
+
+##### Notified
+
+- Indicates when your organization was last notified
+- May be empty if no alert was sent
 
 ---
 
