@@ -16,18 +16,21 @@ All monitoring, alerts, users, and integrations belong to a project.
 ## Page Overview
 
 ### When to use this page
+
 - When setting up a new project or workspace
 - When managing users, roles, or access permissions
 - When reviewing project limits, usage, or subscription details
 - When administering monitoring and collaboration settings
 
 ### What you can do
+
 - View project configuration, usage, and subscription information
 - Manage users, invitations, and access roles
 - Control who can view or manage monitoring and alerts
 - Access billing, invoices, and project-level settings
 
 ### At a Glance
+
 - Project metadata and subscription details
 - User and role assignments
 - Monitoring and notification usage

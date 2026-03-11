@@ -17,11 +17,13 @@ This is typically the **starting point** when onboarding or expanding your monit
 ## Page Overview
 
 ### When to use this page
+
 - When onboarding to CVEalert.io for the first time
 - When adding new software to your monitoring scope
 - When checking whether a specific product has known CVEs
 
 ### What you can do
+
 - Search for software by vendor name, product name, or partial match
 - Discover whether a specific software product has known CVEs
 - Compare CVE counts across similar software or vendors
@@ -29,6 +31,7 @@ This is typically the **starting point** when onboarding or expanding your monit
 - Add one or more software products to monitoring in bulk
 
 ### At a Glance
+
 - Searchable catalog of software with known CVEs
 - CVE counts per software product
 - Monitoring status indicators

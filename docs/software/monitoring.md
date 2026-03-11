@@ -17,16 +17,19 @@ From here, you decide what software to watch and how severe a vulnerability must
 ## Page Overview
 
 ### When to use this page
+
 - When adding new software or platforms to monitoring
 - When adjusting alert sensitivity for existing software
 - When reducing alert noise or tightening security thresholds
 
 ### What you can do
+
 - Add or remove software from monitoring
 - Adjust alert thresholds per software product
 - Review current monitoring configuration
 
 ### At a Glance
+
 - List of monitored software products
 - Vendor, product, and category per entry
 - Configured alert severity thresholds

@@ -17,16 +17,19 @@ It helps new users quickly add widely used technologies without manual research.
 ## Page Overview
 
 ### When to use this page
+
 - During initial onboarding to quickly start monitoring common software
 - When expanding monitoring to include widely used platforms or tools
 - When you're unsure which software products to monitor first
 
 ### What you can do
+
 - Browse commonly monitored and high-interest software
 - Quickly add popular software to your monitoring scope
 - Discover widely used technologies you may have overlooked
 
 ### At a Glance
+
 - Curated grid of popular software
 - Visual indicators for already monitored tools
 - Bulk add-to-monitoring actions

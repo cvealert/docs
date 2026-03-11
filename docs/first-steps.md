@@ -35,7 +35,6 @@ Set up your software inventory, configure monitoring, and start receiving CVE al
 -   :lucide-bell:{ .lg .middle } **Alerts**
 
     ---
-
     Get notified every day when a newly published CVE matches your preferences
 
     [:octicons-arrow-right-24: Alerts](app/alerts/){ data-preview }

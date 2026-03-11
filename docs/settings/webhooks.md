@@ -14,18 +14,21 @@ Webhooks allow you to receive real-time CVE alerts directly in your communicatio
 ## Page Overview
 
 ### When to use this page
+
 - When setting up real-time notifications for new CVEs
 - When integrating CVE alerts into team communication tools
 - When validating or updating an existing webhook configuration
 - When automating vulnerability notifications
 
 ### What you can do
+
 - Configure a webhook for receiving CVE alerts
 - Send test alerts to verify webhook functionality
 - Update or remove existing webhook configurations
 - Review the structure and content of webhook alert messages
 
 ### At a Glance
+
 - One webhook per project
 - Supported integrations (e.g. Slack)
 - Test and validation controls

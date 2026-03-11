@@ -14,18 +14,21 @@ The **Logs** page shows a detailed history of successful login activity for your
 ## Page Overview
 
 ### When to use this page
+
 - When reviewing recent or past login activity
 - After traveling, changing devices, or using a new network
 - When investigating unusual or suspicious account access
 - As part of routine account security reviews
 
 ### What you can do
+
 - Review a history of successful login events
 - Inspect IP addresses, locations, and devices used to access your account
 - Verify session details such as expiration and current IP
 - Detect unexpected or potentially unauthorized login behavior
 
 ### At a Glance
+
 - List of successful login events
 - IP address, location, and device details
 - Current session IP and expiration
@@ -33,7 +36,7 @@ The **Logs** page shows a detailed history of successful login activity for your
 
 ---
 
-## Page Overview
+## Page Overview (deprecated)
 
 This page is available under:
 
@@ -58,7 +61,7 @@ At the top-right of the page, two important indicators are displayed:
   Shows the IP address of your active session.
 
 - **Session expiration**  
-  Displays how long your current session will remain valid (e.g. *12 days, 23 hours*).
+  Displays how long your current session will remain valid (e.g. _12 days, 23 hours_).
 
 !!! tip
     If the IP address shown here does not match your current location or network, review the log entries immediately.
@@ -149,4 +152,3 @@ At the bottom of the table, pagination controls allow you to browse older login 
 
 !!! note
     If you suspect account compromise, contact support and rotate your credentials as soon as possible.
-

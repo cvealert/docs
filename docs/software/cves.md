@@ -16,17 +16,20 @@ This page is used for investigation, prioritization, and risk assessment.
 ## Page Overview
 
 ### When to use this page
+
 - After selecting or monitoring a specific software product
 - When investigating newly disclosed or high-severity vulnerabilities
 - During vulnerability triage, audits, or risk assessments
 
 ### What you can do
+
 - Review all known vulnerabilities for a software product
 - Assess CVE severity, exploitability, and recency
 - Confirm whether monitoring and alerts are enabled
 - Track CVE publication and update timelines
 
 ### At a Glance
+
 - Complete list of CVEs affecting the selected software
 - CVSS severity and scoring information
 - Monitoring and alert status indicators
