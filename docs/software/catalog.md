@@ -17,11 +17,13 @@ It's designed to help you start monitoring without needing to know exact product
 ## Page Overview
 
 ### When to use this page
+
 - When exploring available software to add to your monitoring scope
 - When building or expanding monitoring coverage across your tech stack
 - When you want a curated starting point instead of searching manually
 
 ### What you can do
+
 - Browse a curated list of popular software and services
 - Filter software by category, vendor, or name
 - Explore software grouped by real-world use cases
@@ -29,6 +31,7 @@ It's designed to help you start monitoring without needing to know exact product
 - See how many known CVEs are associated with each tool
 
 ### At a Glance
+
 - Curated list of commonly used software
 - Category-based organization
 - CVE counts per software
@@ -46,7 +49,7 @@ Each row in the catalog shows:
 - **Categories** – One or more classifications describing the software  
 - **Selection checkbox** – Used to add software to monitoring
 
-This makes it easy to understand *what the software is*, *where it belongs*, and *why it matters* from a security perspective.
+This makes it easy to understand _what the software is_, _where it belongs_, and _why it matters_ from a security perspective.
 
 ---
 
@@ -67,6 +70,7 @@ This is especially useful when you already know what you're looking for.
 Software is grouped into high-level categories to help you explore by purpose or team ownership.
 
 ### Infrastructure
+
 Core systems and backend components that power your environment.
 
 - Databases  
@@ -78,6 +82,7 @@ Core systems and backend components that power your environment.
 ---
 
 ### Developer Experience
+
 Tools commonly used by engineering teams during development.
 
 - CMS  
@@ -89,6 +94,7 @@ Tools commonly used by engineering teams during development.
 ---
 
 ### Security
+
 Software related to system access, authentication, and protection.
 
 - Browsers  
@@ -100,6 +106,7 @@ Software related to system access, authentication, and protection.
 ---
 
 ### Product & Collaboration
+
 Tools that support teamwork, communication, and delivery.
 
 - Design  
@@ -111,6 +118,7 @@ Tools that support teamwork, communication, and delivery.
 ---
 
 ### Data & ML
+
 Data platforms and machine learning frameworks.
 
 - Data  

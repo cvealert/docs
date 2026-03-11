@@ -14,12 +14,14 @@ The **Dashboard** is your central monitoring hub in CVEalert.io. It gives you a 
 ## Page Overview
 
 ### When to use this page
+
 - As a daily starting point for security monitoring
 - When you want a high-level view of recent vulnerabilities and alerts
 - When prioritizing which software or CVEs need immediate attention
 - When tracking overall severity trends across your environment
 
 ### What you can do
+
 - Get a real-time overview of recent vulnerability alerts
 - Identify critical and high-severity issues at a glance
 - See which software products are generating the most alerts
@@ -27,6 +29,7 @@ The **Dashboard** is your central monitoring hub in CVEalert.io. It gives you a 
 - Stay informed about actively exploited vulnerabilities and security news
 
 ### At a Glance
+
 - Latest vulnerability alerts detected across monitored software
 - Severity trends over the last 30 days
 - Software generating the highest number of alerts
@@ -41,6 +44,7 @@ The **Dashboard** is your central monitoring hub in CVEalert.io. It gives you a 
 ## Key Sections & UI Elements
 
 ### Latest Alerts Panel
+
 A list of the most recent vulnerability alerts detected by the system.
 
 **Each alert row shows:**
@@ -123,7 +127,7 @@ A list of vulnerabilities actively exploited in the wild (based on CISA KEV cata
 ## Step-by-Step Usage Guide
 
 1. **Review the Latest Alerts**
-    - Look for *Critical* and *High* severity entries at the top.
+    - Look for _Critical_ and _High_ severity entries at the top.
     - Click **View all alerts** to investigate details and remediation steps.
 
 2. **Check Severity Trends**

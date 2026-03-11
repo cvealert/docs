@@ -15,12 +15,14 @@ The **Alerts** page is your main workspace for monitoring, prioritizing, and man
 ## Page Overview
 
 ### When to use this page
+
 - After vulnerabilities are detected for monitored software
 - When reviewing newly disclosed or updated CVEs
 - When prioritizing remediation work based on severity or exploitability
 - When tracking the status of vulnerability response over time
 
 ### What you can do
+
 - Review detected vulnerability alerts across your software stack
 - Filter alerts by severity, status, exploitability, or KEV inclusion
 - Search alerts by CVE ID, vendor, or software
@@ -28,6 +30,7 @@ The **Alerts** page is your main workspace for monitoring, prioritizing, and man
 - Track remediation progress from discovery to resolution
 
 ### At a Glance
+
 - A paginated list of detected CVEs affecting monitored software
 - Severity and remediation status filters
 - Bulk actions for updating alert status
@@ -157,7 +160,7 @@ Use these to navigate through large alert sets.
 
 5. **Update status**
     - Click **Edit**
-    - Choose the appropriate status (e.g., *In Progress* or *Fixed*)
+    - Choose the appropriate status (e.g., _In Progress_ or _Fixed_)
 
 6. **Confirm results**
     - The alert status updates immediately in the list.

@@ -14,25 +14,28 @@ The **User Settings** page lets you view and manage your personal account inform
 ## Page Overview
 
 ### When to use this page
+
 - After your first login to review account details
 - When changing your account password
 - When checking the status of security features like email verification or 2FA
 - During routine account maintenance
 
 ### What you can do
+
 - View your personal account information
 - Change your account password
 - Verify whether email confirmation and 2FA are enabled
 - Review account metadata such as registration date and identifiers
 
 ### At a Glance
+
 - Personal account details
 - Password change controls
 - Email and 2FA security status
 
 ---
 
-## Page Overview
+## Page Overview (deprecated)
 
 The page is divided into two main areas:
 
@@ -161,4 +164,3 @@ This section allows you to securely update your account password.
 
 !!! note
     If some behavior differs (e.g., session invalidation), refer to your organization's security policy or contact support.
-

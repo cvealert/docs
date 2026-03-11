@@ -17,25 +17,28 @@ This significantly reduces the risk of unauthorized access, even if your passwor
 ## Page Overview
 
 ### When to use this page
+
 - After creating your account
 - When strengthening account security
 - After noticing unusual or suspicious login activity
 - When enabling two-factor authentication for the first time
 
 ### What you can do
+
 - Enable or disable multi-factor authentication for your account
 - Pair an authenticator app using a QR code or secret key
 - Verify and activate TOTP-based authentication
 - Confirm whether 2FA is currently enabled
 
 ### At a Glance
+
 - 2FA enablement status
 - QR code and secret key for authenticator setup
 - OTP verification input
 
 ---
 
-## Page Overview
+## Page Overview (deprecated)
 
 This page is available under:
 
@@ -120,6 +123,7 @@ This section is used to **pair your account with an authenticator app**.
 ## After Enabling 2FA
 
 Once enabled:
+
 - You will be prompted for an OTP code during login
 - The **User Settings** page will reflect that 2FA is active
 - Login activity will record 2FA-related events

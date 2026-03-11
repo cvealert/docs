@@ -9,7 +9,7 @@ Explore guides and tutorials to get started with the [CVEalert.io](https://cveal
 
 ---
 
-## Welcome to CVEalert Docs!
+## Welcome to CVEalert Docs
 
 * `Getting Started` - Create an account and start monitoring your tech stack.
 * `Application` - Identify, analyze, and mitigate vulnerabilities in your organization.
@@ -23,6 +23,6 @@ Explore guides and tutorials to get started with the [CVEalert.io](https://cveal
 
 Our friendly, knowledgeable customer support engineers are here to help!
 
-```
+```text
 Contact us at info@cvealert.io
 ```
