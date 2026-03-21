@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6.0.2 # zizmor: ignore[unpinned-uses]
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
 
@@ -40,7 +40,7 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Set up Python
-        uses: actions/setup-python@v6 # zizmor: ignore[unpinned-uses]
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version-file: '.python-version'
 
@@ -58,10 +58,10 @@ jobs:
           zensical build --clean
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4 # zizmor: ignore[unpinned-uses]
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
         with:
           path: site
 
       - name: Deploy pages
-        uses: actions/deploy-pages@v4 # zizmor: ignore[unpinned-uses]
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
         id: deployment
