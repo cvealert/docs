@@ -8,8 +8,10 @@ updates:
       interval: "monthly"
       time: "09:00"
       timezone: "Europe/Prague"
+    assignees:
+      - "vavkamil"
     cooldown:
-      default-days: 7
+      default-days: 14
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -17,5 +19,7 @@ updates:
       interval: "monthly"
       time: "09:00"
       timezone: "Europe/Prague"
+    assignees:
+      - "vavkamil"
     cooldown:
-      default-days: 7
+      default-days: 14
