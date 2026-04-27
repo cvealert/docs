@@ -1,4 +1,4 @@
-# https://github.com/squidfunk/mkdocs-material
+# https://zensical.org/docs/get-started/
 
 name: Documentation
 
@@ -8,7 +8,7 @@ on:
       - main
     paths:
       - 'docs/**'
-      - 'mkdocs.yml'
+      - 'zensical.toml'
       - 'requirements.txt'
 
 permissions: {}
