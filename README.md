@@ -1,6 +1,6 @@
 # CVEalert Docs
 
-Source for the CVEalert documentation published at [docs.cvealert.io](https://docs.cvealert.io).
+Public source for the CVEalert documentation published at [docs.cvealert.io](https://docs.cvealert.io).
 
 <p align="center">
     <a href="https://docs.cvealert.io"
@@ -21,18 +21,26 @@ Source for the CVEalert documentation published at [docs.cvealert.io](https://do
 
 ## Overview
 
+This repository contains the documentation site source for CVEalert. It is not the main application codebase.
+
 This repository contains:
 
 - Markdown content in `docs/`
-- site configuration in `mkdocs.yml`
+- site configuration in `zensical.toml`
 - Python dependencies in `requirements.txt`
 - GitHub Actions workflows in `.github/workflows/`
 
-The site is built with [Zensical](https://zensical.org/), using Material for MkDocs under the hood.
+The site is built with [Zensical](https://zensical.org/).
 
 ## Local Setup
 
-The project uses the Python version defined in `.python-version`. Using a virtual environment is recommended.
+Prerequisites:
+
+- Python version from `.python-version`
+- `pip`
+- `Node.js` only if you want to run Markdown linting locally via `npx`
+
+Using a virtual environment is recommended.
 
 ```bash
 git clone https://github.com/cvealert/docs.git
@@ -51,7 +59,7 @@ Run the local docs server from the repository root:
 zensical serve
 ```
 
-The site is available at `http://localhost:8000` and reloads automatically when files in `docs/` or `mkdocs.yml` change.
+The site is available at `http://localhost:8000` and reloads automatically when files in `docs/` or `zensical.toml` change.
 
 To produce a local build:
 
@@ -80,7 +88,7 @@ All commands below are run from the repository root.
 |-- docs/                  # Documentation source
 |-- site/                  # Generated site output
 |-- .github/workflows/     # CI and deployment workflows
-|-- mkdocs.yml             # Site navigation and theme config
+|-- zensical.toml          # Site navigation and theme config
 |-- requirements.txt       # Python dependencies
 `-- README.md
 ```
@@ -89,7 +97,7 @@ All commands below are run from the repository root.
 
 GitHub Pages deployment is automatic.
 
-Pushes to `main` that change `docs/**`, `mkdocs.yml`, or `requirements.txt` trigger the documentation workflow, which:
+Pushes to `main` that change `docs/**`, `zensical.toml`, or `requirements.txt` trigger the documentation workflow, which:
 
 - installs dependencies
 - builds the site with Zensical
@@ -100,7 +108,14 @@ Markdown changes are linted separately on pull requests, and workflow changes ar
 
 ## Contributing
 
-Small fixes and content updates should usually touch only `docs/` and, when needed, `mkdocs.yml`.
+Small fixes and content updates should usually touch only `docs/` and, when needed, `zensical.toml`.
+
+For most documentation changes:
+
+- edit files in `docs/`
+- preview locally with `zensical serve`
+- run a clean build before opening a pull request
+- run Markdown lint if you changed prose-heavy pages
 
 Before opening a pull request, it is worth running:
 
