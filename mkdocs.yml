@@ -121,7 +121,6 @@ nav:
       - Catalog: software/catalog.md
       - Search: software/search.md
       - CVEs: software/cves.md
-      - Featured: software/featured.md
   - Settings:
       - Projects: settings/projects.md
       - • Roles: settings/projects/roles.md
@@ -130,9 +129,9 @@ nav:
       #     - Invite Users: projects/invite.md
       #     - Roles & Permissions: projects/roles.md
       - Webhooks: settings/webhooks.md
-      - User Settings: settings/user.md
+      - Account: settings/user.md
+      - • 2FA: settings/2fa.md
       - Logs: settings/logs.md
-      - Two-Factor Auth: settings/2fa.md
   # - API Reference:
   #     - Overview: api/index.md
   #     - Swagger: api/swagger.md
