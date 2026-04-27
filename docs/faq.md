@@ -30,7 +30,7 @@ title: FAQ
     Getting started typically looks like this:
 
     1. Create an account at **app.cvealert.io**
-    2. Add software you use via **Search**, **Catalog**, or **Featured Software**
+    2. Add software you use via **Search** or **Catalog**
     3. Configure alert thresholds for each software product
     4. Review alerts and CVEs as they are detected
 
@@ -55,7 +55,7 @@ title: FAQ
     - Browsers and runtimes
     - Frameworks and platforms your applications depend on
 
-    If you're unsure, the **Featured Software** and **Catalog** pages provide curated starting points based on commonly monitored tools.
+    If you're unsure, the **Catalog** pages provide curated starting points based on commonly monitored tools.
 
 ---
 

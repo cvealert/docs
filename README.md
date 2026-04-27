@@ -1,6 +1,6 @@
-# CVEalert Docs :open_book:
+# CVEalert Docs
 
-This is the source code for the CVEalert documentation available at **[docs.cvealert.io](https://docs.cvealert.io)**
+Public source for the CVEalert documentation published at [docs.cvealert.io](https://docs.cvealert.io).
 
 <p align="center">
     <a href="https://docs.cvealert.io"
@@ -19,73 +19,94 @@ This is the source code for the CVEalert documentation available at **[docs.cvea
          src="https://img.shields.io/github/stars/cvealert/docs">
 </p>
 
----
+## Overview
 
-## :rocket: Why CVEalert Docs Is Open Source
+This repository contains the documentation site source for CVEalert. It is not the main application codebase.
 
-Our documentation is open source, allowing us to stay connected with our community and quickly implement feedback.
+This repository contains:
 
-Whether you've opened an issue or contributed content, thank you for helping us maintain high-quality documentation.
+- Markdown content in `docs/`
+- site configuration in `zensical.toml`
+- Python project metadata in `pyproject.toml`
+- locked dependencies in `uv.lock`
+- GitHub Actions workflows in `.github/workflows/`
 
-## :wrench: Setup
+The site is built with [Zensical](https://zensical.org/).
 
-You must have a recent version of Python installed. We recommend using [Pyenv](https://github.com/pyenv/pyenv).
+## Development
 
-1. Clone this repository
-2. Install the required Python dependencies using `pip`
-
-```bash
-$ git clone https://github.com/cvealert/docs.git
-$ cd docs/
-$ pip install -r requirements.txt
-```
-
-## :computer: Development
-
-When making changes to the site, including content updates, you can run a local development server with:
+Run the local docs server from the repository root:
 
 ```bash
-$ zensical serve
+zensical serve
 ```
 
-This will start a server accessible at http://localhost:8000.
+The site is available at `http://localhost:8000` and reloads automatically when files in `docs/` or `zensical.toml` change.
 
-Any changes made within the (`./docs/`) directory will automatically reload in your browser, allowing you to preview updates instantly.
+To produce a local build:
 
-You can also build the site locally but note that the `./site/` directory is included in `.gitignore` because CI/CD handles builds from source.
+```bash
+zensical build --clean
+```
 
-## :keyboard: Commands
+Build output is written to `site/`. That directory is treated as generated output and rebuilt in CI.
 
-All commands are run from the root of the project, via the terminal:
+## Common Commands
 
-| Command                           | Action                                      |
-|:----------------------------------|:--------------------------------------------|
-| `pip install -r requirements.txt` | Installs Python dependencies                |
-| `zensical serve`                    | Starts local dev server at `localhost:8000` |
-| `zensical build`                    | Build your production site to `./site/`     |
-| `zensical -h`                       | Get help using the MkDocs CLI               |
+All commands below are run from the repository root.
 
-## :package: Deployment
+| Command | Purpose |
+|:--|:--|
+| `uv sync` | Install the project dependencies from `uv.lock` |
+| `uv run zensical serve` | Start the local development server |
+| `uv run zensical build --clean` | Build the static site into `site/` |
+| `npx markdownlint-cli2 --config .github/.markdownlint-cli2.yaml "docs/**/*.md" "!site/**"` | Lint Markdown content |
+| `uv tool run --from zizmor==1.23.1 zizmor .github/workflows` | Run the GitHub Actions security linter locally |
 
-Documentation is automatically deployed using **[GitHub Pages](https://docs.github.com/en/pages)**.
+## Repository Layout
 
-Every commit pushed to the `main` branch triggers a **CI/CD workflow**, which:
+```text
+.
+|-- docs/                  # Documentation source
+|-- site/                  # Generated site output
+|-- .github/workflows/     # CI and deployment workflows
+|-- pyproject.toml         # Python project metadata
+|-- uv.lock                # Locked Python dependencies
+|-- zensical.toml          # Site navigation and theme config
+`-- README.md
+```
 
-- Builds the site using ~MkDocs~ (Zensical)
-- Copies the output to the `gh-pages` branch
-- Deploys it live to `docs.cvealert.io`
+## Deployment
 
-Just open a pull request with your changes. We'll take care of the rest, and your updates go live!
+GitHub Pages deployment is automatic.
 
-## :handshake: Contributing to CVEalert Docs
+Pushes to `main` that change `docs/**`, `zensical.toml`, `pyproject.toml`, `uv.lock`, or `.python-version` trigger the documentation workflow, which:
 
-The documentation project welcomes and depends on, contributions from developers and users in the open-source community.
+- installs dependencies
+- builds the site with Zensical
+- uploads the generated `site/` artifact
+- deploys it to GitHub Pages
 
-If you have feedback or are interested in contributing, please refer to our [Contributing Guide](#todo) for more information.
+Markdown changes are linted separately on pull requests, and workflow changes are checked with `zizmor`.
 
-## :mag_right: Learn More
+## Contributing
 
-- Edit: Migrated to [Zensical](https://github.com/cvealert/docs/issues/18)
-- Made with [Material for MkDocs](https://github.com/squidfunk/mkdocs-material), a powerful documentation framework on top of `MkDocs`.
-- [MkDocs](https://github.com/mkdocs/mkdocs) is a static site generator for project documentation written in Markdown.
-- We also use the [MkDocs static i18n plugin](https://github.com/ultrabug/mkdocs-static-i18n) to support multiple languages.
+Small fixes and content updates should usually touch only `docs/` and, when needed, `zensical.toml`.
+
+For most documentation changes:
+
+- edit files in `docs/`
+- sync dependencies with `uv sync`
+- preview locally with `uv run zensical serve`
+- run a clean build before opening a pull request
+- run Markdown lint if you changed prose-heavy pages
+
+Before opening a pull request, it is worth running:
+
+```bash
+uv sync
+uv run zensical build --clean
+npx markdownlint-cli2 --config .github/.markdownlint-cli2.yaml "docs/**/*.md" "!site/**"
+```
+
+If you are updating screenshots or navigation after a product change, make sure the affected docs pages still match the current UI labels and flow.

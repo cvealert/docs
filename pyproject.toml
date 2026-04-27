@@ -1,0 +1,9 @@
+[project]
+name = "cvealert-docs"
+version = "1.0.0"
+description = "Public documentation source for CVEalert.io"
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+  "zensical==0.0.37",
+]

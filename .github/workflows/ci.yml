@@ -1,13 +1,15 @@
-# https://github.com/woodruffw/zizmor
-
-name: Security - zizmor
+name: ci
 
 on:
-  push:
+  pull_request:
     branches:
       - main
-  pull_request:
     paths:
+      - 'docs/**'
+      - 'zensical.toml'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - '.python-version'
       - '.github/workflows/**'
 
 permissions: {}
@@ -17,8 +19,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  zizmor:
-    # name: zizmor latest via PyPI
+  validate:
     runs-on: ubuntu-slim
     permissions:
       contents: read
@@ -34,10 +35,17 @@ jobs:
         with:
           python-version-file: '.python-version'
 
-      - name: Install Zizmor
-        run: |
-          python -m pip install --upgrade pip
-          pip install zizmor==1.23.1
+      - name: Install uv
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+        with:
+          version: "0.11.7"
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
 
-      - name: Run Zizmor
-        run: zizmor .github/workflows
+      - name: Install dependencies
+        run: |
+          uv sync --locked
+
+      - name: Validate docs build
+        run: |
+          uv run zensical build --clean
