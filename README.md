@@ -27,7 +27,8 @@ This repository contains:
 
 - Markdown content in `docs/`
 - site configuration in `zensical.toml`
-- Python dependencies in `requirements.txt`
+- Python project metadata in `pyproject.toml`
+- locked dependencies in `uv.lock`
 - GitHub Actions workflows in `.github/workflows/`
 
 The site is built with [Zensical](https://zensical.org/).
@@ -56,11 +57,11 @@ All commands below are run from the repository root.
 
 | Command | Purpose |
 |:--|:--|
-| `pip install -r requirements.txt` | Install project dependencies |
-| `zensical serve` | Start the local development server |
-| `zensical build --clean` | Build the static site into `site/` |
+| `uv sync` | Install the project dependencies from `uv.lock` |
+| `uv run zensical serve` | Start the local development server |
+| `uv run zensical build --clean` | Build the static site into `site/` |
 | `npx markdownlint-cli2 --config .github/markdownlint-cli2.yaml "docs/**/*.md" "!site/**"` | Lint Markdown content |
-| `zizmor .github/workflows` | Run the GitHub Actions security linter locally |
+| `uv tool run --from zizmor==1.23.1 zizmor .github/workflows` | Run the GitHub Actions security linter locally |
 
 ## Repository Layout
 
@@ -69,8 +70,9 @@ All commands below are run from the repository root.
 |-- docs/                  # Documentation source
 |-- site/                  # Generated site output
 |-- .github/workflows/     # CI and deployment workflows
+|-- pyproject.toml         # Python project metadata
+|-- uv.lock                # Locked Python dependencies
 |-- zensical.toml          # Site navigation and theme config
-|-- requirements.txt       # Python dependencies
 `-- README.md
 ```
 
@@ -78,7 +80,7 @@ All commands below are run from the repository root.
 
 GitHub Pages deployment is automatic.
 
-Pushes to `main` that change `docs/**`, `zensical.toml`, or `requirements.txt` trigger the documentation workflow, which:
+Pushes to `main` that change `docs/**`, `zensical.toml`, `pyproject.toml`, `uv.lock`, or `.python-version` trigger the documentation workflow, which:
 
 - installs dependencies
 - builds the site with Zensical
@@ -94,15 +96,16 @@ Small fixes and content updates should usually touch only `docs/` and, when need
 For most documentation changes:
 
 - edit files in `docs/`
-- preview locally with `zensical serve`
+- sync dependencies with `uv sync`
+- preview locally with `uv run zensical serve`
 - run a clean build before opening a pull request
 - run Markdown lint if you changed prose-heavy pages
 
 Before opening a pull request, it is worth running:
 
 ```bash
-pip install -r requirements.txt
-zensical build --clean
+uv sync
+uv run zensical build --clean
 npx markdownlint-cli2 --config .github/markdownlint-cli2.yaml "docs/**/*.md" "!site/**"
 ```
 
