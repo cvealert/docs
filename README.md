@@ -60,7 +60,7 @@ All commands below are run from the repository root.
 | `uv sync` | Install the project dependencies from `uv.lock` |
 | `uv run zensical serve` | Start the local development server |
 | `uv run zensical build --clean` | Build the static site into `site/` |
-| `npx markdownlint-cli2 --config .github/markdownlint-cli2.yaml "docs/**/*.md" "!site/**"` | Lint Markdown content |
+| `npx markdownlint-cli2 --config .github/.markdownlint-cli2.yaml "docs/**/*.md" "!site/**"` | Lint Markdown content |
 | `uv tool run --from zizmor==1.23.1 zizmor .github/workflows` | Run the GitHub Actions security linter locally |
 
 ## Repository Layout
@@ -106,7 +106,7 @@ Before opening a pull request, it is worth running:
 ```bash
 uv sync
 uv run zensical build --clean
-npx markdownlint-cli2 --config .github/markdownlint-cli2.yaml "docs/**/*.md" "!site/**"
+npx markdownlint-cli2 --config .github/.markdownlint-cli2.yaml "docs/**/*.md" "!site/**"
 ```
 
 If you are updating screenshots or navigation after a product change, make sure the affected docs pages still match the current UI labels and flow.
