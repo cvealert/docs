@@ -32,25 +32,6 @@ This repository contains:
 
 The site is built with [Zensical](https://zensical.org/).
 
-## Local Setup
-
-Prerequisites:
-
-- Python version from `.python-version`
-- `pip`
-- `Node.js` only if you want to run Markdown linting locally via `npx`
-
-Using a virtual environment is recommended.
-
-```bash
-git clone https://github.com/cvealert/docs.git
-cd docs
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
 ## Development
 
 Run the local docs server from the repository root:
@@ -120,6 +101,7 @@ For most documentation changes:
 Before opening a pull request, it is worth running:
 
 ```bash
+pip install -r requirements.txt
 zensical build --clean
 npx markdownlint-cli2 --config .markdownlint-cli2.yaml "docs/**/*.md" "!site/**"
 ```
