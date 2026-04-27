@@ -59,6 +59,15 @@ repo = "fontawesome/brands/github"
 scheme = "slate"
 primary = "indigo"
 accent = "orange"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
 
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.admonition]
