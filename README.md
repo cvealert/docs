@@ -1,6 +1,6 @@
-# CVEalert Docs :open_book:
+# CVEalert Docs
 
-This is the source code for the CVEalert documentation available at **[docs.cvealert.io](https://docs.cvealert.io)**
+Source for the CVEalert documentation published at [docs.cvealert.io](https://docs.cvealert.io).
 
 <p align="center">
     <a href="https://docs.cvealert.io"
@@ -19,73 +19,94 @@ This is the source code for the CVEalert documentation available at **[docs.cvea
          src="https://img.shields.io/github/stars/cvealert/docs">
 </p>
 
----
+## Overview
 
-## :rocket: Why CVEalert Docs Is Open Source
+This repository contains:
 
-Our documentation is open source, allowing us to stay connected with our community and quickly implement feedback.
+- Markdown content in `docs/`
+- site configuration in `mkdocs.yml`
+- Python dependencies in `requirements.txt`
+- GitHub Actions workflows in `.github/workflows/`
 
-Whether you've opened an issue or contributed content, thank you for helping us maintain high-quality documentation.
+The site is built with [Zensical](https://zensical.org/), using Material for MkDocs under the hood.
 
-## :wrench: Setup
+## Local Setup
 
-You must have a recent version of Python installed. We recommend using [Pyenv](https://github.com/pyenv/pyenv).
-
-1. Clone this repository
-2. Install the required Python dependencies using `pip`
-
-```bash
-$ git clone https://github.com/cvealert/docs.git
-$ cd docs/
-$ pip install -r requirements.txt
-```
-
-## :computer: Development
-
-When making changes to the site, including content updates, you can run a local development server with:
+The project uses the Python version defined in `.python-version`. Using a virtual environment is recommended.
 
 ```bash
-$ zensical serve
+git clone https://github.com/cvealert/docs.git
+cd docs
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
-This will start a server accessible at http://localhost:8000.
+## Development
 
-Any changes made within the (`./docs/`) directory will automatically reload in your browser, allowing you to preview updates instantly.
+Run the local docs server from the repository root:
 
-You can also build the site locally but note that the `./site/` directory is included in `.gitignore` because CI/CD handles builds from source.
+```bash
+zensical serve
+```
 
-## :keyboard: Commands
+The site is available at `http://localhost:8000` and reloads automatically when files in `docs/` or `mkdocs.yml` change.
 
-All commands are run from the root of the project, via the terminal:
+To produce a local build:
 
-| Command                           | Action                                      |
-|:----------------------------------|:--------------------------------------------|
-| `pip install -r requirements.txt` | Installs Python dependencies                |
-| `zensical serve`                    | Starts local dev server at `localhost:8000` |
-| `zensical build`                    | Build your production site to `./site/`     |
-| `zensical -h`                       | Get help using the MkDocs CLI               |
+```bash
+zensical build --clean
+```
 
-## :package: Deployment
+Build output is written to `site/`. That directory is treated as generated output and rebuilt in CI.
 
-Documentation is automatically deployed using **[GitHub Pages](https://docs.github.com/en/pages)**.
+## Common Commands
 
-Every commit pushed to the `main` branch triggers a **CI/CD workflow**, which:
+All commands below are run from the repository root.
 
-- Builds the site using ~MkDocs~ (Zensical)
-- Copies the output to the `gh-pages` branch
-- Deploys it live to `docs.cvealert.io`
+| Command | Purpose |
+|:--|:--|
+| `pip install -r requirements.txt` | Install project dependencies |
+| `zensical serve` | Start the local development server |
+| `zensical build --clean` | Build the static site into `site/` |
+| `npx markdownlint-cli2 --config .markdownlint-cli2.yaml "docs/**/*.md" "!site/**"` | Lint Markdown content |
+| `zizmor .github/workflows` | Run the GitHub Actions security linter locally |
 
-Just open a pull request with your changes. We'll take care of the rest, and your updates go live!
+## Repository Layout
 
-## :handshake: Contributing to CVEalert Docs
+```text
+.
+|-- docs/                  # Documentation source
+|-- site/                  # Generated site output
+|-- .github/workflows/     # CI and deployment workflows
+|-- mkdocs.yml             # Site navigation and theme config
+|-- requirements.txt       # Python dependencies
+`-- README.md
+```
 
-The documentation project welcomes and depends on, contributions from developers and users in the open-source community.
+## Deployment
 
-If you have feedback or are interested in contributing, please refer to our [Contributing Guide](#todo) for more information.
+GitHub Pages deployment is automatic.
 
-## :mag_right: Learn More
+Pushes to `main` that change `docs/**`, `mkdocs.yml`, or `requirements.txt` trigger the documentation workflow, which:
 
-- Edit: Migrated to [Zensical](https://github.com/cvealert/docs/issues/18)
-- Made with [Material for MkDocs](https://github.com/squidfunk/mkdocs-material), a powerful documentation framework on top of `MkDocs`.
-- [MkDocs](https://github.com/mkdocs/mkdocs) is a static site generator for project documentation written in Markdown.
-- We also use the [MkDocs static i18n plugin](https://github.com/ultrabug/mkdocs-static-i18n) to support multiple languages.
+- installs dependencies
+- builds the site with Zensical
+- uploads the generated `site/` artifact
+- deploys it to GitHub Pages
+
+Markdown changes are linted separately on pull requests, and workflow changes are checked with `zizmor`.
+
+## Contributing
+
+Small fixes and content updates should usually touch only `docs/` and, when needed, `mkdocs.yml`.
+
+Before opening a pull request, it is worth running:
+
+```bash
+zensical build --clean
+npx markdownlint-cli2 --config .markdownlint-cli2.yaml "docs/**/*.md" "!site/**"
+```
+
+If you are updating screenshots or navigation after a product change, make sure the affected docs pages still match the current UI labels and flow.
