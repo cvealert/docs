@@ -129,18 +129,3 @@ Use [Integrations](settings/integrations/){ data-preview } to send CVE alerts to
 /// caption
 Configure alert integrations
 ///
-
-<!-- 
----
-
-Do you want to see more?
-
-[Registration](https://cvealert.io/login/){ .md-button .md-button--primary } &nbsp; [Contact](https://cvealert.io/contact/){ .md-button } 
--->
-
-<!-- 
-<video controls playsinline style="width:100%; height:auto;">
-  <source src="/assets/todo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
--->

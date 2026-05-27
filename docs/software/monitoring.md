@@ -18,7 +18,7 @@ Use Software Monitoring to decide which products CVEalert should track and how n
 
 The monitoring list shows the software your organization currently tracks. Use it to confirm that key operating systems, browsers, frameworks, databases, network services, and exposed applications are included.
 
-If the list is empty, add software from the Software Catalog or use Add software when you already know the CPE-style value you need.
+If the list is empty, add software from the Software Catalog or use Add software when you already know the product you want to monitor.
 
 ### Set alert thresholds
 

@@ -46,7 +46,7 @@ Threat intel helps prioritize work:
 
 Prioritize KEV vulnerabilities and CVEs with credible PoC or high EPSS signals, especially when they affect internet-facing systems.
 
-### Open source references
+### Review references
 
 Use References to jump to vendor advisories, NVD records, release notes, patches, or research writeups. Vendor guidance should usually be treated as the primary remediation source.
 

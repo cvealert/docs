@@ -55,11 +55,11 @@ Remove an integration when a channel is no longer used, a token has been exposed
     | MS Teams | Planned | Team channel alerts |
     | Discord | Optional | Community channel alerts |
 
-    Roadmap and optional options are visible for product direction, but they are not part of the current Slack and Telegram setup flow.
+    These options are shown for roadmap context. Only Slack and Telegram are configurable today.
 
 ## Notes
 
-- Slack and Telegram are the supported integrations today.
+- Slack and Telegram are configurable today.
 - Keep integration credentials restricted to the minimum channels or chats that need CVE alerts.
 - If alerts stop arriving, check the destination permissions first, then send a test alert from CVEalert.
 

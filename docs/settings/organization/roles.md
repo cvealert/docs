@@ -17,7 +17,7 @@ Roles define what members can do inside an organization. Use them to keep billin
 | Analyst | Security, AppSec, DevOps, SRE, and engineering responders | Can manage monitoring, alerts, and integrations |
 | Viewer | Auditors, managers, stakeholders, read-only reviewers | Can view organization data without changing it |
 
-## How To Choose A Role
+## How to Choose a Role
 
 ### Admin
 
