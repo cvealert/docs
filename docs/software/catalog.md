@@ -149,4 +149,5 @@ The Software Catalog is designed to get you from **zero to monitored** in just a
 
 ---
 
-> 💡 Tip: Start by adding the core infrastructure and frameworks your team relies on most, then expand as needed.
+!!! Tip
+    Start by adding the core infrastructure and frameworks your team relies on most, then expand as needed.
