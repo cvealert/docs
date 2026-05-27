@@ -6,6 +6,8 @@ icon: lucide/bug
 
 Use CVE Detail to investigate one vulnerability before deciding what to patch, ignore, or track. The page combines the CVE description, affected software, remediation guidance, references, CVSS data, and exploitability signals in one place.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/vuln/detail/?cve=CVE-2020-26297){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! tip "Start with exposure"
     First confirm whether the affected software is actually in your environment. Then use severity, KEV, PoC, EPSS, and vendor references to decide how urgent the response should be.
 

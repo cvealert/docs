@@ -6,39 +6,22 @@ icon: lucide/user-round-plus
 
 Create an account to start monitoring vulnerabilities affecting your software.
 
----
+[:lucide-external-link: Create an account](https://app.cvealert.io/register){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" } [:lucide-user-round-check: Log in](login/){ .md-button .overview-secondary }
 
 ## Create an Account
 
-To begin, register for an account at:
+Use the registration form to create your personal account. The form asks for your name, email address, and a password.
 
-- [cvealert.io/signup](https://cvealert.io/signup/) or [app.cvealert.io/register](https://app.cvealert.io/register)
-
-_There is no difference whether you start from the landing page or directly in the main application._
-
-During registration, you will be asked to provide:
-
-- **First name**
-- **Last name**
-- **Email address**
-- **Password**
+You must also agree to the Terms of Service and Privacy Policy before creating the account.
 
 !!! warning
-    Your password must be **12-64 characters long** and should be unique.
-
-You must also agree to the **Terms of Service** and **Privacy Policy** before creating an account.
+    Use a unique password stored in a password manager. CVEalert requires a password between 12 and 64 characters.
 
 !!! note
-    You must **confirm your email address** before you can log in for the first time.
-
----
+    Confirm your email address before signing in for the first time.
 
 ## After Registration
 
-After your account is created and your email is verified, you can log in at:
+A default organization is created automatically for your account. Use it as the workspace for monitored software, alerts, integrations, and team access.
 
-- [app.cvealert.io](https://app.cvealert.io)
-
-A **default organization** will be created automatically for your account.
-
-You can update your **organization and company information** later in the [Organization](settings/organization/){ data-preview } settings.
+After signing in, start with [First Steps](first-steps/) or update organization details in [Organization](settings/organization/){ data-preview } settings.

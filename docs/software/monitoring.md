@@ -7,6 +7,8 @@ title: Monitoring
 
 Use Software Monitoring to decide which products CVEalert should track and how noisy alerts should be. This page is the control surface for monitored software and per-product severity thresholds.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/software/monitoring){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! tip
     Start with High as the default threshold for most products. Lower it for critical systems and raise it for software that produces too much noise.
 
@@ -23,6 +25,13 @@ If the list is empty, add software from the Software Catalog or use Add software
 Each monitored product has a minimum severity threshold. CVEalert creates alerts for CVEs at or above that threshold.
 
 For example, a High threshold sends High and Critical alerts. A Medium threshold sends Medium, High, and Critical alerts.
+
+| Threshold | Alerts created for | Good default for |
+| --- | --- | --- |
+| Critical | Critical only | Very noisy software that still needs emergency coverage |
+| High | High and Critical | Most production software |
+| Medium | Medium, High, and Critical | Exposed or business-critical software |
+| Low | Low and above | Narrow cases where the product owner wants maximum visibility |
 
 !!! note
     Alert thresholds reduce notification noise. They do not hide CVEs from the software CVE views.

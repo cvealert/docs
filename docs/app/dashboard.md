@@ -6,6 +6,8 @@ icon: lucide/layout-dashboard
 
 Use Dashboard as the daily starting point for vulnerability monitoring. It summarizes recent alerts, critical and high findings, monitored software, activity trends, and external threat intel.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/dashboard){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! warning
     KEV entries are known to be exploited in the wild. Review them quickly when they overlap with software you run.
 

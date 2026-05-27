@@ -7,6 +7,8 @@ title: Search
 
 Use Software Search when you know the vendor, product, package, or framework you want to monitor. Search is best for exact lookup and for checking whether CVEalert tracks a specific product.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/software/search){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! tip
     Start with the vendor name when product naming is ambiguous. Vendors often publish several packages with similar names.
 

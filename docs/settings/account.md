@@ -6,6 +6,8 @@ icon: lucide/user-round
 
 Use Account to manage your personal profile, password, and account-level security status. These settings apply to you, not to the whole organization.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/settings/account){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! note
     Organization membership, roles, billing, monitoring, and integrations are managed from organization-scoped pages.
 

@@ -6,6 +6,8 @@ icon: lucide/archive
 
 Use Organization to manage the workspace your team shares in CVEalert. Monitoring, alerts, members, invitations, billing, limits, and integrations are scoped to the organization.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/settings/organization){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! tip
     Keep Admin access limited to people who need billing, member, or organization-level control.
 

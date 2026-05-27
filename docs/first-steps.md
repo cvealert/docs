@@ -8,6 +8,12 @@ Use this checklist to get CVEalert from a new account to useful alerts. The goal
 
 ## Onboarding Checklist
 
+- [ ] Add 5 to 10 important products.
+- [ ] Set alert thresholds before inviting the wider team.
+- [ ] Confirm the first alerts make sense.
+- [ ] Send a test alert to Slack or Telegram.
+- [ ] Enable 2FA and review organization access.
+
 ### 1. Add important software
 
 Start with software that is internet-facing, business-critical, widely deployed, or historically noisy for your team. Use the catalog when possible, and use search when you need to find a specific vendor or product.

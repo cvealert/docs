@@ -6,6 +6,8 @@ icon: lucide/bug
 
 Use Software CVEs to search and review vulnerabilities by CVE ID, vendor, or software. This page is useful for investigation even when a vulnerability has not become an alert.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/software/cves){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! note
     Alert thresholds control notifications. Software CVEs can still show vulnerabilities that did not trigger an alert.
 

@@ -4,7 +4,9 @@ icon: lucide/message-circle-code
 
 # Integrations
 
-Use Integrations to send CVE alerts to the tools your team already watches. For MVP, CVEalert supports Slack and Telegram alert delivery.
+Use Integrations to send CVE alerts to the tools your team already watches. Slack and Telegram are enabled today, and the page also shows upcoming or optional delivery channels.
+
+[:lucide-external-link: Open in app](https://app.cvealert.io/settings/integrations){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 
 !!! tip
     Send vulnerability alerts to a dedicated security or operations channel so they stay visible without interrupting unrelated team conversations.
@@ -33,16 +35,27 @@ Testing does not change your monitored software or alert history.
 
 Remove an integration when a channel is no longer used, a token has been exposed, or alerts should stop going to that destination. Changes apply immediately.
 
-## Planned Integrations
+## Integration Options
 
-The app also shows planned delivery options:
+=== "Supported now"
 
-- Email
-- Custom API
-- RSS
-- CSV Export
+    | Integration | Use for | Required setup |
+    | --- | --- | --- |
+    | Slack | Channel-based alert delivery | Incoming webhook URL and channel |
+    | Telegram | Bot-driven chat alerts | Chat ID and bot token |
 
-These options are not part of the current MVP alert delivery flow.
+=== "Roadmap"
+
+    | Integration | Status | Expected use |
+    | --- | --- | --- |
+    | Email | Coming soon | Mailbox alert routing |
+    | Custom API | Planned | Custom HTTP payloads |
+    | RSS | Planned | Feed-based alert consumption |
+    | CSV Export | Planned | Downloadable alert reports |
+    | MS Teams | Planned | Team channel alerts |
+    | Discord | Optional | Community channel alerts |
+
+    Roadmap and optional options are visible for product direction, but they are not part of the current Slack and Telegram setup flow.
 
 ## Notes
 

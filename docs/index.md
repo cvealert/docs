@@ -10,7 +10,47 @@ CVEalert helps teams monitor the software they use, find relevant CVEs, and rout
 !!! tip "Recommended setup path"
     Start by adding a small set of important software, then tune alert thresholds before inviting a wider team.
 
-## Get Set Up
+[Create an account](registration/){ .md-button .md-button--primary } [:lucide-scan-search: Preview the app](preview/){ .md-button .overview-secondary }
+
+## Fast Paths
+
+<div class="grid cards" markdown>
+
+-   :lucide-clock-fading:{ .lg .middle } **Start monitoring**
+
+    ---
+
+    Add your first products, set severity thresholds, and generate useful alerts without building a full inventory first.
+
+    [:octicons-arrow-right-24: First Steps](first-steps/)
+
+-   :lucide-folder-plus:{ .lg .middle } **Browse catalog**
+
+    ---
+
+    Find known vendors and products, then add the software that matters to your environment.
+
+    [:octicons-arrow-right-24: Software Catalog](software/catalog/)
+
+-   :lucide-bell:{ .lg .middle } **Triage vulnerabilities**
+
+    ---
+
+    Review alerts, prioritize KEV and PoC signals, and open CVE details when a finding needs investigation.
+
+    [:octicons-arrow-right-24: Alerts](app/alerts/)
+
+-   :lucide-archive:{ .lg .middle } **Prepare the workspace**
+
+    ---
+
+    Configure integrations, enable 2FA, invite members, and keep organization access under control.
+
+    [:octicons-arrow-right-24: Organization](settings/organization/)
+
+</div>
+
+## Setup Checklist
 
 1. [Create an account](registration/) and confirm access to the app.
 2. [Add software](software/catalog/) that matters to your environment.

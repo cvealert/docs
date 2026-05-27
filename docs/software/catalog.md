@@ -7,6 +7,8 @@ title: Catalog
 
 Use Software Catalog to browse common software and add relevant products to monitoring. It is the fastest way to start when you do not already know the exact vendor or product name.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/software/catalog){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! tip
     Add a focused set of important products first. You can expand coverage later after you understand alert volume.
 

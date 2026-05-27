@@ -7,6 +7,8 @@ title: Alerts
 
 Use Alerts to triage CVEs that match your monitored software. This is the main workspace for deciding what needs investigation, what is already being handled, and what can be dismissed.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/alerts){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! tip
     Start with Critical and High alerts, then enable KEV or PoC filters when you need to find the most exploitable risk first.
 
@@ -28,10 +30,12 @@ Prioritize KEV findings when they affect exposed or business-critical systems.
 
 Use statuses to keep triage visible:
 
-- **Unknown** means the alert has not been reviewed yet.
-- **In Progress** means the team is validating, patching, or mitigating.
-- **Fixed** means your team has confirmed remediation outside CVEalert.
-- **Dismissed** means the alert does not apply or no action is needed.
+| Status | Use when |
+| --- | --- |
+| **Unknown** | The alert has not been reviewed yet. |
+| **In Progress** | The team is validating, patching, or mitigating. |
+| **Fixed** | Your team has confirmed remediation outside CVEalert. |
+| **Dismissed** | The alert does not apply or no action is needed. |
 
 !!! warning
     Marking an alert as Fixed does not verify remediation. Confirm patching, mitigation, or non-applicability in your own environment first.

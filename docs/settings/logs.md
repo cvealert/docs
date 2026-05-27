@@ -6,6 +6,8 @@ icon: lucide/activity
 
 Use Logs to review account security activity and current session details. This page helps you confirm that recent sign-ins came from expected networks, locations, and devices.
 
+[:lucide-external-link: Open in app](https://app.cvealert.io/settings/logs){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
+
 !!! tip
     Review Logs after travel, device changes, password changes, or any alert that suggests account access may be unusual.
 

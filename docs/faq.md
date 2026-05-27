@@ -30,7 +30,7 @@ Short answers to common CVEalert setup and triage questions.
     See [Alerts](app/alerts/) and [CVE Detail](app/cve/) for triage guidance.
 
 ??? question "Which integrations are supported?"
-    Slack and Telegram are supported for MVP alert delivery. Email, Custom API, RSS, and CSV Export are planned.
+    Slack and Telegram are enabled for alert delivery. Email is marked as coming soon; Custom API, RSS, CSV Export, and MS Teams are planned; Discord is optional.
 
     See [Integrations](settings/integrations/) for setup guidance.
 
