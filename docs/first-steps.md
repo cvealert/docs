@@ -4,7 +4,40 @@ icon: lucide/footprints
 
 # First Steps
 
-Set up your software inventory, configure monitoring, and start receiving CVE alerts.
+Use this checklist to turn a new CVEalert account into a useful alerting setup. The goal is focused monitoring, not a complete inventory on day one.
+
+## Onboarding Checklist
+
+- [ ] Add 5 to 10 important products.
+- [ ] Set alert thresholds before inviting the wider team.
+- [ ] Confirm the first alerts make sense.
+- [ ] Send a test alert to Slack or Telegram.
+- [ ] Enable 2FA and review organization access.
+
+### 1. Add important software
+
+Start with software that is internet-facing, business-critical, widely deployed, or historically noisy for your team. Use Catalog when possible, and use Search when you need a specific vendor or product.
+
+### 2. Review monitoring thresholds
+
+Open Software Monitoring and choose the minimum severity that should generate alerts for each product. Start with High for broad coverage, then adjust thresholds based on business impact and alert volume.
+
+### 3. Check the first alerts
+
+Use Alerts to review matching CVEs. Prioritize Critical and High findings first, then use KEV and PoC filters to find vulnerabilities with stronger exploitation signals.
+
+### 4. Configure alert delivery
+
+Set up Slack or Telegram in Integrations so new alerts reach the channel or chat your team monitors. Send a test alert before relying on the integration.
+
+### 5. Secure the account
+
+Enable 2FA for your account and review Logs after major account changes. For team usage, invite members through Organization settings and assign the least privilege role that fits their work.
+
+!!! warning
+    Treat CVEalert as a prioritization system. Always confirm affected versions, deployment context, and remediation status in your own environment.
+
+## Main Pages
 
 <div class="grid cards" markdown>
 
@@ -12,33 +45,39 @@ Set up your software inventory, configure monitoring, and start receiving CVE al
 
     ---
 
-    Browse the Software Catalog, select what you use, and get up and running in minutes
+    Browse known software and add relevant products to monitoring.
 
-    [:octicons-arrow-right-24: Software Catalog](software/catalog/){ data-preview }
+    [:octicons-arrow-right-24: Open Software Catalog](software/catalog/){ data-preview }
 
 -   :lucide-clock-fading:{ .lg .middle } **Software Monitoring**
 
     ---
 
-    Adjust thresholds, track ownership, and manage your company's asset inventory
+    Control what CVEalert tracks and which severities create alerts.
 
-    [:octicons-arrow-right-24: Software Monitoring](software/monitoring/){ data-preview }
-
--   :lucide-message-circle-code:{ .lg .middle } **Webhooks**
-
-    ---
-
-    Select the integrations you use and configure webhooks to receive alerts
-
-    [:octicons-arrow-right-24: Webhooks](settings/webhooks/){ data-preview }
+    [:octicons-arrow-right-24: Open Software Monitoring](software/monitoring/){ data-preview }
 
 -   :lucide-bell:{ .lg .middle } **Alerts**
 
     ---
-    Get notified every day when a newly published CVE matches your preferences
 
-    [:octicons-arrow-right-24: Alerts](app/alerts/){ data-preview }
+    Triage matching CVEs and track remediation status.
+
+    [:octicons-arrow-right-24: Open Alerts](app/alerts/){ data-preview }
+
+-   :lucide-message-circle-code:{ .lg .middle } **Integrations**
+
+    ---
+
+    Send alerts to Slack or Telegram.
+
+    [:octicons-arrow-right-24: Open Integrations](settings/integrations/){ data-preview }
 
 </div>
 
-After completing these onboarding steps, you'll be ready to monitor vulnerabilities affecting your software. You can continue exploring the application or sit back and wait for the first alerts.
+## Related Pages
+
+- [Dashboard](app/dashboard/)
+- [CVE Detail](app/cve/)
+- [Organization](settings/organization/)
+- [Two-Factor Authentication](settings/2fa/)

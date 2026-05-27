@@ -3,12 +3,13 @@ site_name = "CVEalert.io Documentation"
 site_url = "https://docs.cvealert.io"
 site_author = "Kamil Vavra"
 site_description = """
-CVEalert.io helps you stay ahead of security vulnerabilities by monitoring, alerting,
-and managing CVEs in real time. Built for developers, teams, and security professionals.
+CVEalert.io helps teams monitor software, find relevant CVEs, and route
+vulnerability alerts to the teams responsible for triage and remediation.
 """
 repo_name = "cvealert/docs"
 repo_url = "https://github.com/cvealert/docs"
 edit_uri = "blob/main/docs/"
+extra_css = ["stylesheets/extra.css"]
 copyright = """
 Copyright &copy; 2025 CVEalert.io
 """
@@ -24,19 +25,19 @@ nav = [
   { "Application" = [
     { "Dashboard" = "app/dashboard.md" },
     { "Alerts" = "app/alerts.md" },
-    { "CVE detail" = "app/cve.md" },
+    { "CVE Detail" = "app/cve.md" },
   ] },
   { "Software" = [
     { "Monitoring" = "software/monitoring.md" },
     { "Catalog" = "software/catalog.md" },
-    { "Search" = "software/search.md" },
     { "CVEs" = "software/cves.md" },
+    { "Search" = "software/search.md" },
   ] },
   { "Settings" = [
-    { "Projects" = "settings/projects.md" },
-    { "Roles" = "settings/projects/roles.md" },
-    { "Webhooks" = "settings/webhooks.md" },
-    { "Account" = "settings/user.md" },
+    { "Organization" = "settings/organization.md" },
+    { "Roles" = "settings/organization/roles.md" },
+    { "Integrations" = "settings/integrations.md" },
+    { "Account" = "settings/account.md" },
     { "2FA" = "settings/2fa.md" },
     { "Logs" = "settings/logs.md" },
   ] },
@@ -49,6 +50,7 @@ logo = "assets/logo.webp"
 features = [
   "content.action.edit",
   "content.action.view",
+  "content.tooltips",
   "navigation.tabs",
 ]
 
@@ -57,15 +59,15 @@ repo = "fontawesome/brands/github"
 
 [[project.theme.palette]]
 scheme = "slate"
-primary = "indigo"
+primary = "orange"
 accent = "orange"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
 [[project.theme.palette]]
 scheme = "default"
-primary = "indigo"
-accent = "indigo"
+primary = "orange"
+accent = "orange"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
@@ -76,6 +78,9 @@ toggle.name = "Switch to dark mode"
 [project.markdown_extensions.pymdownx.blocks.caption]
 [project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.superfences]
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
 
 [project.markdown_extensions.pymdownx.emoji]
 emoji_index = "zensical.extensions.emoji.twemoji"

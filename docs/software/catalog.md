@@ -5,148 +5,46 @@ title: Catalog
 
 # Software Catalog
 
-The **Software Catalog** lets you quickly discover, filter, and add commonly used software to your monitoring list.
+Use Software Catalog to browse common software and add relevant products to monitoring. It is the fastest starting point when you do not already know the exact vendor or product name.
 
-It's designed to help you start monitoring without needing to know exact product names up front.
+[:lucide-external-link: Open in app](https://app.cvealert.io/software/catalog){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 
-!!! info
-    The Catalog is curated and category-driven, making it ideal for exploration. Use Search when you know exactly what you're looking for.
+!!! tip
+    Add a focused set of important products first. You can expand coverage later after you understand alert volume.
 
----
+## Common Tasks
 
-## Page Overview
+### Browse by category
 
-### When to use this page
+Catalog categories help you explore by how software is used, such as infrastructure, developer tools, security tooling, collaboration, data, and machine learning.
 
-- When exploring available software to add to your monitoring scope
-- When building or expanding monitoring coverage across your tech stack
-- When you want a curated starting point instead of searching manually
+Start with software that is exposed, business-critical, widely deployed, or owned by teams that need vulnerability alerts.
 
-### What you can do
+### Find a known product
 
-- Browse a curated list of popular software and services
-- Filter software by category, vendor, or name
-- Explore software grouped by real-world use cases
-- Add selected software to your monitoring list
-- See how many known CVEs are associated with each tool
+Use the catalog search to narrow the list by vendor or software name. If you know the exact product, Search may be faster than browsing the full catalog.
 
-### At a Glance
+### Add software to monitoring
 
-- Curated list of commonly used software
-- Category-based organization
-- CVE counts per software
-- Bulk selection and monitoring actions
+Select one or more products and add them to monitoring. CVEalert begins matching future CVEs against the monitored software and creates alerts based on your configured thresholds.
 
----
+After adding software, open Software Monitoring to review thresholds and add short context notes where useful.
 
-## Browsing the Catalog
+### Interpret CVE counts
 
-Each row in the catalog shows:
+CVE counts show how many known vulnerabilities are associated with a product in CVEalert's data. A high count does not automatically mean the product is unsafe today.
 
-- **Vendor** – The company or organization maintaining the software  
-- **Software** – The product or project name  
-- **CVEs** – Number of known vulnerabilities currently tracked  
-- **Categories** – One or more classifications describing the software  
-- **Selection checkbox** – Used to add software to monitoring
+Use CVE counts as a signal for review history and potential alert volume, not as a standalone risk score.
 
-This makes it easy to understand _what the software is_, _where it belongs_, and _why it matters_ from a security perspective.
+## Notes
 
----
+- Catalog is curated for browsing and onboarding.
+- Search is better when you know the vendor or product name.
+- Similar product names can exist across vendors, packages, plugins, or forks. Confirm the software before adding it.
 
-## Filtering & Search
+## Related Pages
 
-Use the search bar at the top of the catalog to:
-
-- Search by **vendor name**
-- Search by **software name**
-- Quickly narrow down large lists
-
-This is especially useful when you already know what you're looking for.
-
----
-
-## Categories Overview
-
-Software is grouped into high-level categories to help you explore by purpose or team ownership.
-
-### Infrastructure
-
-Core systems and backend components that power your environment.
-
-- Databases  
-- Infra  
-- Mail Servers  
-- Observability  
-- Web Servers  
-
----
-
-### Developer Experience
-
-Tools commonly used by engineering teams during development.
-
-- CMS  
-- Code Editors  
-- Devs  
-- Frameworks  
-- Testing  
-
----
-
-### Security
-
-Software related to system access, authentication, and protection.
-
-- Browsers  
-- Operating System  
-- Password Managers  
-- Remote Access  
-- Security  
-
----
-
-### Product & Collaboration
-
-Tools that support teamwork, communication, and delivery.
-
-- Design  
-- Installed Software  
-- Messaging  
-- Project Management  
-- Storage  
-
----
-
-### Data & ML
-
-Data platforms and machine learning frameworks.
-
-- Data  
-- Machine Learning  
-
----
-
-## Adding Software to Monitoring
-
-To start monitoring software:
-
-1. Select one or more items using the checkboxes on the right
-2. Click **Add selected to monitoring**
-3. The software is now tracked for new CVEs and security alerts
-
-Once added, you'll receive alerts whenever new vulnerabilities are discovered.
-
----
-
-## Why Use the Software Catalog?
-
-- ✅ No manual CVE research  
-- ✅ Covers the most common tools used in production  
-- ✅ Organized by real-world use cases  
-- ✅ Helps security and engineering teams stay aligned  
-
-The Software Catalog is designed to get you from **zero to monitored** in just a few clicks.
-
----
-
-> 💡 Tip: Start by adding the core infrastructure and frameworks your team relies on most, then expand as needed.
+- [Software Search](search/)
+- [Software Monitoring](monitoring/)
+- [Software CVEs](cves/)
+- [Alerts](../app/alerts/)
