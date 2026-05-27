@@ -49,7 +49,7 @@ At the top, you'll find a short explanation of what the page currently tracks:
 - 2FA-related updates (where applicable)
 
 !!! note
-    Filtering and separate project audit logs are planned features and may require an Enterprise plan.
+    Filtering and separate organization audit logs are planned features and may require an Enterprise plan.
 
 ---
 

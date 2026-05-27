@@ -15,7 +15,7 @@ Explore guides and tutorials to get started with the [CVEalert.io](https://cveal
 * `Application` - Identify, analyze, and mitigate vulnerabilities in your organization.
 * `Software` - Create, edit, and manage your monitors and alerts.
 * `Settings` - Configure your workflows and generate insights from your data.
-    * `Projects` - Access organization-based settings, billing, invited users, and roles.
+    * `Organization` - Access organization settings, billing, invited members, and roles.
 
 ---
 

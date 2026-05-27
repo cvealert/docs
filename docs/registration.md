@@ -39,6 +39,6 @@ After your account is created and your email is verified, you can log in at:
 
 - [app.cvealert.io](https://app.cvealert.io)
 
-A **default project** will be created automatically for your account.
+A **default organization** will be created automatically for your account.
 
-You can update your **project and company information** later in the [Projects](settings/projects/){ data-preview } settings.
+You can update your **organization and company information** later in the [Organization](settings/organization/){ data-preview } settings.

@@ -24,13 +24,13 @@ Set up your software inventory, configure monitoring, and start receiving CVE al
 
     [:octicons-arrow-right-24: Software Monitoring](software/monitoring/){ data-preview }
 
--   :lucide-message-circle-code:{ .lg .middle } **Webhooks**
+-   :lucide-message-circle-code:{ .lg .middle } **Integrations**
 
     ---
 
     Select the integrations you use and configure webhooks to receive alerts
 
-    [:octicons-arrow-right-24: Webhooks](settings/webhooks/){ data-preview }
+    [:octicons-arrow-right-24: Integrations](settings/integrations/){ data-preview }
 
 -   :lucide-bell:{ .lg .middle } **Alerts**
 

@@ -70,9 +70,9 @@ Recent alerts and trends
 
 ---
 
-## Webhooks
+## Integrations
 
-[Webhooks](settings/webhooks/){ data-preview } allow you to receive real-time CVE alerts directly in your communication tools, enabling fast response to newly disclosed vulnerabilities.
+[Integrations](settings/integrations/){ data-preview } allow you to receive real-time CVE alerts directly in your communication tools, enabling fast response to newly disclosed vulnerabilities.
 
 ![Image title](assets/img/preview/07_webhooks.webp){ loading=lazy }
 /// caption
@@ -81,9 +81,9 @@ Configure alert integrations
 
 ---
 
-## Projects
+## Organization
 
-[Projects](settings/projects/){ data-preview } are the main workspace in CVEalert. Each project represents a company, team, or environment and defines who has access and what is being monitored.
+[Organization](settings/organization/){ data-preview } is the main workspace in CVEalert. Each organization represents a company, team, or environment and defines who has access and what is being monitored.
 
 ![Image title](assets/img/preview/08_projects.webp){ loading=lazy }
 /// caption

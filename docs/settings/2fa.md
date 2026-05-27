@@ -125,7 +125,7 @@ This section is used to **pair your account with an authenticator app**.
 Once enabled:
 
 - You will be prompted for an OTP code during login
-- The **User Settings** page will reflect that 2FA is active
+- The **Account Settings** page will reflect that 2FA is active
 - Login activity will record 2FA-related events
 
 !!! note

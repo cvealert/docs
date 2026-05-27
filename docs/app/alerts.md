@@ -175,4 +175,4 @@ Use these to navigate through large alert sets.
 
 ---
 
-_If something on this page behaves differently than expected, it may depend on your organization's alert ingestion or project configuration. When unsure, treat alerts as **Unknown** until verified._
+_If something on this page behaves differently than expected, it may depend on your organization's alert ingestion or settings. When unsure, treat alerts as **Unknown** until verified._

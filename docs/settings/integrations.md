@@ -2,12 +2,12 @@
 icon: lucide/message-circle-code
 ---
 
-# Webhooks
+# Integrations
 
-Webhooks allow you to receive real-time CVE alerts directly in your communication tools, enabling fast response to newly disclosed vulnerabilities.
+Integrations allow you to receive real-time CVE alerts directly in your communication tools, enabling fast response to newly disclosed vulnerabilities.
 
 !!! info
-    Webhooks are ideal for automation and team notifications when integrating CVE alerts into external systems.
+    Webhook delivery is the first supported integration type and is ideal for automation and team notifications.
 
 ---
 
@@ -29,7 +29,7 @@ Webhooks allow you to receive real-time CVE alerts directly in your communicatio
 
 ### At a Glance
 
-- One webhook per project
+- One webhook per organization
 - Supported integrations (e.g. Slack)
 - Test and validation controls
 - CVE alert payload contents
@@ -38,12 +38,12 @@ Webhooks allow you to receive real-time CVE alerts directly in your communicatio
 
 ## Overview
 
-Each project can be configured with **one incoming webhook**.
+Each organization can be configured with **one incoming webhook**.
 
 Currently, CVEalert supports **Slack webhooks**.  
 Additional integrations are planned and will be available in future releases.
 
-Webhooks are triggered automatically whenever:
+Webhook integrations are triggered automatically whenever:
 
 - A new CVE is published
 - A CVE affects software in your monitoring list
@@ -90,9 +90,9 @@ No real monitoring data is affected during testing.
 
 ---
 
-## Managing Webhooks
+## Managing Integrations
 
-From the Webhooks page, you can:
+From the Integrations page, you can:
 
 - **Save changes** to update the webhook configuration
 - **Remove** the webhook to stop all webhook notifications
@@ -132,4 +132,5 @@ Availability and configuration options may vary by plan.
 
 ---
 
-> 💡 Tip: Use a dedicated Slack channel for CVE alerts to keep security notifications visible without disrupting team discussions.
+!!! tip
+    Use a dedicated Slack channel for CVE alerts to keep security notifications visible without disrupting team discussions.

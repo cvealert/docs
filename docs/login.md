@@ -38,6 +38,6 @@ If you cannot remember your password, use the **Forgot password** link on the lo
 
 For additional account security, CVEalert.io provides the following features:
 
-- [User Settings](settings/user/){ data-preview } - to manage your account related preferences
+- [Account Settings](settings/account/){ data-preview } - to manage your account related preferences
 - [Two-Factor Authentication](settings/2fa/){ data-preview } (2FA) - add an extra layer of protection to your account  
 - [Account Activity Logs](settings/logs/){ data-preview } - review recent login activity and security events

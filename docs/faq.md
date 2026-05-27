@@ -124,7 +124,7 @@ title: FAQ
 
     - Secure account authentication
     - Optional two-factor authentication (2FA)
-    - Role-based access control via projects
+    - Role-based access control via organizations
     - Audit-friendly activity logs
 
     Sensitive credentials (such as webhook URLs) are stored securely and not displayed after setup.
@@ -146,19 +146,19 @@ title: FAQ
 
 ## Business, Teams & Integrations
 
-??? question "Can CVEalert be used by teams or multiple projects?"
-    Yes. CVEalert supports **projects**, which act as separate workspaces for teams, organizations, or environments.
+??? question "Can CVEalert be used by teams or multiple organizations?"
+    Yes. CVEalert supports **organizations**, which act as workspaces for teams, companies, or environments.
 
-    Each project can have:
+    Each organization can have:
 
-    - Multiple users
+    - Multiple members
     - Role-based permissions
     - Independent monitoring and alert configuration
 
 ??? question "Do you support integrations like Slack or webhooks?"
     Yes. CVEalert supports webhooks for delivering alerts to external systems such as Slack.
 
-    Webhooks allow teams to receive real-time notifications when new vulnerabilities are detected.
+    Webhook integrations allow teams to receive real-time notifications when new vulnerabilities are detected.
 
     Additional integrations may be added over time.
 
@@ -187,7 +187,7 @@ title: FAQ
     Pricing may be based on one or more of the following:
 
     - Number of monitored software products
-    - Project limits
+    - Organization limits
     - Notification or alert volume
     - Feature availability
 
@@ -205,7 +205,7 @@ title: FAQ
     - Alert and notification limits
     - Data retention
     - Integrations
-    - Team and project features
+    - Team and organization features
 
     Always consult the pricing table for a detailed comparison.
 
@@ -230,7 +230,7 @@ title: FAQ
     > _Placeholder: exact overage behavior may vary and should be confirmed in-app._
 
 ??? question "Where can I find invoices and billing information?"
-    Invoices, receipts, and billing details are available within the application under project or billing settings.
+    Invoices, receipts, and billing details are available within the application under organization or billing settings.
 
 ??? question "Can I change or cancel my plan?"
     Yes. You can typically change or cancel your plan at any time through the application.

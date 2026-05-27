@@ -2,12 +2,12 @@
 icon: lucide/user-round
 ---
 
-# User Settings
+# Account Settings
 
-The **User Settings** page lets you view and manage your personal account information and security settings, including password changes and 2FA status.
+The **Account Settings** page lets you view and manage your personal account information and security settings, including password changes and 2FA status.
 
 !!! note
-    User settings apply only to your personal account and do not affect project-level configuration.
+    Account settings apply only to your personal account and do not affect organization-level configuration.
 
 ---
 
@@ -35,19 +35,19 @@ The **User Settings** page lets you view and manage your personal account inform
 
 ---
 
-## Page Overview (deprecated)
+## Layout
 
 The page is divided into two main areas:
 
-- **User Account** (left side): Displays your personal and account-related information
+- **Account Details** (left side): Displays your personal and account-related information
 - **Password Change** (right side): Allows you to securely update your password
 
 A navigation breadcrumb at the top shows your current location in the app:
-`Settings / User`
+`Settings / Account`
 
 ---
 
-## User Account Section
+## Account Details Section
 
 This section displays **read-only information** about your account.
 
@@ -70,7 +70,7 @@ This section displays **read-only information** about your account.
 
 ### Account Metadata
 
-- **User UUID**  
+- **Account UUID**  
   A unique identifier for your account (used internally and for support).
 
 - **Registered**  
@@ -131,7 +131,7 @@ This section allows you to securely update your account password.
 
 ## Step-by-Step: Changing Your Password
 
-1. Navigate to **Settings → User**
+1. Navigate to **Settings → Account**
 2. In the **Password Change** section, enter your **old password**
 3. Enter a **new password** that meets the length requirements
 4. Re-enter the new password in **Confirm new password**
@@ -159,7 +159,7 @@ This section allows you to securely update your account password.
 ## Advanced Notes
 
 - Email editing is intentionally disabled to prevent account takeover risks.
-- The **User UUID** can be useful when contacting support or referencing API-related issues.
+- The **Account UUID** can be useful when contacting support or referencing API-related issues.
 - Password changes may invalidate existing sessions (assumption based on standard security practice).
 
 !!! note
