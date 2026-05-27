@@ -3,3 +3,6 @@
 site/
 .codex
 .venv/
+.agents
+screenshots/
+CONTENT_TODO.md
