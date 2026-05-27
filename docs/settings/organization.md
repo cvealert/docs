@@ -21,7 +21,7 @@ This is the best place to check whether the workspace is near plan or usage limi
 
 ### Manage members
 
-Members are users who already have access to the organization. Review their role, account status, and 2FA status as part of routine access reviews.
+Members are people who already have access to the organization. Review their role, account status, and 2FA status as part of routine access reviews.
 
 Remove members when they leave the team or no longer need access.
 

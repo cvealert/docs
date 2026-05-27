@@ -5,10 +5,10 @@ title: FAQ
 
 # Frequently Asked Questions
 
-Short answers to common CVEalert setup and triage questions.
+Short answers to common setup, monitoring, and triage questions.
 
 ??? question "What is CVEalert for?"
-    CVEalert helps teams monitor software they use, find relevant CVEs, and route alerts to the people responsible for triage and remediation.
+    CVEalert helps teams monitor the software they use, find relevant CVEs, and route alerts to the people responsible for triage and remediation.
 
 ??? question "What should I monitor first?"
     Start with internet-facing systems, business-critical applications, operating systems, browsers, frameworks, databases, and infrastructure components your team owns.
@@ -30,7 +30,7 @@ Short answers to common CVEalert setup and triage questions.
     See [Alerts](app/alerts/) and [CVE Detail](app/cve/) for triage guidance.
 
 ??? question "Which integrations are supported?"
-    Slack and Telegram are enabled for alert delivery. Email is marked as coming soon; Custom API, RSS, CSV Export, and MS Teams are planned; Discord is optional.
+    Slack and Telegram are enabled for alert delivery. Email is marked as coming soon. Custom API, RSS, CSV Export, and MS Teams are planned. Discord is optional.
 
     See [Integrations](settings/integrations/) for setup guidance.
 

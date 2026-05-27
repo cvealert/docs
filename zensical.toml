@@ -3,8 +3,8 @@ site_name = "CVEalert.io Documentation"
 site_url = "https://docs.cvealert.io"
 site_author = "Kamil Vavra"
 site_description = """
-CVEalert.io helps you stay ahead of security vulnerabilities by monitoring, alerting,
-and managing CVEs in real time. Built for developers, teams, and security professionals.
+CVEalert.io helps teams monitor software, find relevant CVEs, and route
+vulnerability alerts to the teams responsible for triage and remediation.
 """
 repo_name = "cvealert/docs"
 repo_url = "https://github.com/cvealert/docs"
@@ -25,7 +25,7 @@ nav = [
   { "Application" = [
     { "Dashboard" = "app/dashboard.md" },
     { "Alerts" = "app/alerts.md" },
-    { "CVE detail" = "app/cve.md" },
+    { "CVE Detail" = "app/cve.md" },
   ] },
   { "Software" = [
     { "Monitoring" = "software/monitoring.md" },

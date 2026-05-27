@@ -4,7 +4,7 @@ icon: lucide/scan-search
 
 # Application Preview
 
-This page gives a quick visual tour of the main CVEalert workspaces. Use it to understand where common onboarding and triage tasks happen in the app.
+This page gives a visual tour of the main CVEalert workspaces and shows where common onboarding and triage tasks happen in the app.
 
 ## Preview Map
 
@@ -14,7 +14,7 @@ This page gives a quick visual tour of the main CVEalert workspaces. Use it to u
 
     ---
 
-    Start with Dashboard to understand recent alerts, severity trends, and threat signals.
+    Start with the Dashboard to understand recent alerts, severity trends, and threat signals.
 
     [:octicons-arrow-right-24: Dashboard](app/dashboard/)
 
@@ -30,7 +30,7 @@ This page gives a quick visual tour of the main CVEalert workspaces. Use it to u
 
     ---
 
-    Use Monitoring, Catalog, and Software CVEs to control what CVEalert tracks.
+    Use Software Monitoring, Catalog, and Software CVEs to control what CVEalert tracks.
 
     [:octicons-arrow-right-24: Software Monitoring](software/monitoring/)
 
@@ -38,7 +38,7 @@ This page gives a quick visual tour of the main CVEalert workspaces. Use it to u
 
     ---
 
-    Use Organization and Integrations to manage team access and alert delivery.
+    Use Organization and Integrations to manage workspace access and alert delivery.
 
     [:octicons-arrow-right-24: Organization](settings/organization/)
 

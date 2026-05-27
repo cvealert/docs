@@ -18,11 +18,11 @@ Use Software Search when you know the vendor, product, package, or framework you
 
 Enter a vendor or software name and choose whether to search vendor names, software names, or both. Broader searches are useful for discovery; narrower searches are useful when you already know the exact target.
 
-If no results appear, try a shorter product name, the vendor name, or an alternate spelling used by the upstream project.
+If no results appear, try a shorter product name, the vendor name, or another spelling used by the upstream project.
 
 ### Confirm the right product
 
-Review vendor and software names before adding anything to monitoring. This matters for ecosystems with similar packages, renamed projects, plugins, forks, or enterprise and community editions.
+Review vendor and software names before adding anything to monitoring. This matters for ecosystems with similar packages, renamed products, plugins, forks, or enterprise and community editions.
 
 !!! warning
     Monitoring the wrong product can create irrelevant alerts and hide the product you actually care about. Verify the vendor and software name before adding it.

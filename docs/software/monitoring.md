@@ -5,7 +5,7 @@ title: Monitoring
 
 # Software Monitoring
 
-Use Software Monitoring to decide which products CVEalert should track and how noisy alerts should be. This page is the control surface for monitored software and per-product severity thresholds.
+Use Software Monitoring to decide which products CVEalert should track and which severity levels should create alerts. This page is the control surface for monitored software and per-product severity thresholds.
 
 [:lucide-external-link: Open in app](https://app.cvealert.io/software/monitoring){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 

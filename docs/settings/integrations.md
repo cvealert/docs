@@ -4,7 +4,7 @@ icon: lucide/message-circle-code
 
 # Integrations
 
-Use Integrations to send CVE alerts to the tools your team already watches. Slack and Telegram are enabled today, and the page also shows upcoming or optional delivery channels.
+Use Integrations to send CVE alerts to the tools your team uses for response work. Slack and Telegram are enabled today, and the page also shows upcoming or optional delivery channels.
 
 [:lucide-external-link: Open in app](https://app.cvealert.io/settings/integrations){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 
@@ -27,7 +27,7 @@ Saved bot tokens are hidden after submission. Treat bot tokens like credentials 
 
 ### Test alert delivery
 
-Use a test alert after creating or changing an integration. Testing confirms that CVEalert can reach the destination and that the channel or chat receives messages in the expected format.
+Send a test alert after creating or changing an integration. Testing confirms that CVEalert can reach the destination and that the channel or chat receives messages in the expected format.
 
 Testing does not change your monitored software or alert history.
 

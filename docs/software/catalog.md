@@ -5,7 +5,7 @@ title: Catalog
 
 # Software Catalog
 
-Use Software Catalog to browse common software and add relevant products to monitoring. It is the fastest way to start when you do not already know the exact vendor or product name.
+Use Software Catalog to browse common software and add relevant products to monitoring. It is the fastest starting point when you do not already know the exact vendor or product name.
 
 [:lucide-external-link: Open in app](https://app.cvealert.io/software/catalog){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 
@@ -16,7 +16,7 @@ Use Software Catalog to browse common software and add relevant products to moni
 
 ### Browse by category
 
-Catalog categories help you explore by how software is used, such as infrastructure, developer tools, security tooling, collaboration, data, or machine learning.
+Catalog categories help you explore by how software is used, such as infrastructure, developer tools, security tooling, collaboration, data, and machine learning.
 
 Start with software that is exposed, business-critical, widely deployed, or owned by teams that need vulnerability alerts.
 

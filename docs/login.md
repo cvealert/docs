@@ -4,13 +4,13 @@ icon: lucide/user-round-check
 
 # Login
 
-Sign in when you need to review alerts, update monitored software, manage integrations, or change account settings.
+Sign in to review alerts, update monitored software, manage integrations, or change account settings.
 
 [:lucide-external-link: Log in](https://app.cvealert.io/login){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" } [:lucide-user-round-plus: Create an account](registration/){ .md-button .overview-secondary }
 
 ## Sign In
 
-Use the same account whether you start from the landing page or go directly to the app.
+Use the same account whether you start from the website or go directly to the app.
 
 If you use **Remember me**, keep it for trusted devices only. Shared workstations, jump hosts, and temporary browsers should use a normal session.
 

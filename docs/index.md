@@ -5,10 +5,10 @@ title: Overview
 
 # CVEalert Quick Start
 
-CVEalert helps teams monitor the software they use, find relevant CVEs, and route vulnerability alerts to the people who need to act.
+CVEalert helps teams monitor the software they use, find relevant CVEs, and route vulnerability alerts to the people responsible for triage and remediation.
 
 !!! tip "Recommended setup path"
-    Start by adding a small set of important software, then tune alert thresholds before inviting a wider team.
+    Start with a focused set of important software, then tune alert thresholds before inviting a wider team.
 
 [Create an account](registration/){ .md-button .md-button--primary } [:lucide-scan-search: Preview the app](preview/){ .md-button .overview-secondary }
 
@@ -36,7 +36,7 @@ CVEalert helps teams monitor the software they use, find relevant CVEs, and rout
 
     ---
 
-    Review alerts, prioritize KEV and PoC signals, and open CVE details when a finding needs investigation.
+    Review alerts, prioritize KEV and PoC signals, and open the CVE Detail page when a finding needs investigation.
 
     [:octicons-arrow-right-24: Alerts](app/alerts/)
 
@@ -59,13 +59,13 @@ CVEalert helps teams monitor the software they use, find relevant CVEs, and rout
 5. [Configure integrations](settings/integrations/) so alerts reach Slack or Telegram.
 6. [Enable 2FA](settings/2fa/) for account protection.
 
-## Where To Go Next
+## Where to Go Next
 
 - [First Steps](first-steps/) gives a short onboarding checklist.
 - [Dashboard](app/dashboard/) shows what needs attention now.
 - [Software Monitoring](software/monitoring/) controls what CVEalert tracks.
 - [Alerts](app/alerts/) is the main triage workspace.
-- [CVE Detail](app/cve/) explains one vulnerability in depth.
+- [CVE Detail](app/cve/) supports investigation for one vulnerability.
 
 ## Support
 

@@ -4,7 +4,7 @@ icon: lucide/archive
 
 # Roles
 
-Roles define what members can do inside an organization. Use them to keep billing, member management, monitoring, and triage access aligned with each person's responsibility.
+Roles define what members can do inside an organization. Use them to keep billing, member management, monitoring, and triage access aligned with each person's responsibilities.
 
 !!! tip
     Assign the least privilege role that still lets the member do their job.
@@ -23,11 +23,11 @@ Roles define what members can do inside an organization. Use them to keep billin
 
 Use Admin for people who manage the workspace itself. Admins can manage members, invitations, billing, organization settings, monitoring, alerts, and integrations.
 
-Keep this group small because Admin access can affect the whole organization.
+Keep this group small because Admin access can affect the entire organization.
 
 ### Analyst
 
-Use Analyst for people who work on vulnerability triage and response. Analysts can manage monitored software, update alert status, review CVE details, and configure integrations needed for response workflows.
+Use Analyst for people who work on vulnerability triage and response. Analysts can manage monitored software, update alert status, review CVE information, and configure integrations needed for response workflows.
 
 This is the usual role for security engineers, AppSec engineers, DevOps, and SREs.
 

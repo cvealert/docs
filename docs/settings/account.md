@@ -4,7 +4,7 @@ icon: lucide/user-round
 
 # Account
 
-Use Account to manage your personal profile, password, and account-level security status. These settings apply to you, not to the whole organization.
+Use Account to manage your personal profile, password, and account-level security status. These settings apply to you, not to the organization.
 
 [:lucide-external-link: Open in app](https://app.cvealert.io/settings/account){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 
@@ -34,7 +34,7 @@ Change your password if you suspect it was reused, shared, exposed, or entered o
 
 ### Find account details for support
 
-Account metadata such as registration date, last password change, and account identifiers can help support investigate account-specific issues.
+Account metadata, such as registration date, last password change, and account identifiers, can help support investigate account-specific issues.
 
 ## Related Pages
 

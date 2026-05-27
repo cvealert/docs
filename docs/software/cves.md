@@ -4,7 +4,7 @@ icon: lucide/bug
 
 # Software CVEs
 
-Use Software CVEs to search and review vulnerabilities by CVE ID, vendor, or software. This page is useful for investigation even when a vulnerability has not become an alert.
+Use Software CVEs to search and review vulnerabilities by CVE ID, vendor, or software. This page is useful for investigation even when a vulnerability has not triggered an alert.
 
 [:lucide-external-link: Open in app](https://app.cvealert.io/software/cves){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 
@@ -26,7 +26,7 @@ Start with severity, then look at PoC, KEV, and modified dates. Recent modificat
 !!! warning
     Not every CVE applies to every version or deployment of a product. Confirm affected versions before opening remediation work.
 
-### Open CVE details
+### Open CVE Detail
 
 Open a CVE when you need the full description, remediation data, affected software, references, CVSS vector, EPSS, KEV, PoC, or CWE context.
 

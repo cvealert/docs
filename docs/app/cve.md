@@ -4,7 +4,7 @@ icon: lucide/bug
 
 # CVE Detail
 
-Use CVE Detail to investigate one vulnerability before deciding what to patch, ignore, or track. The page combines the CVE description, affected software, remediation guidance, references, CVSS data, and exploitability signals in one place.
+Use CVE Detail to investigate one vulnerability before deciding what to patch, dismiss, or track. The page combines the CVE description, affected software, remediation guidance, references, CVSS data, and exploitability signals in one place.
 
 [:lucide-external-link: Open in app](https://app.cvealert.io/vuln/detail/?cve=CVE-2020-26297){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 
@@ -35,9 +35,9 @@ When an alert is tied to your monitored software, update the alert status only a
 !!! warning
     Marking an alert as fixed does not verify the patch. Confirm remediation in your own environment first.
 
-### Use threat intel signals
+### Use threat intelligence signals
 
-Threat intel helps prioritize work:
+Threat intelligence helps prioritize work:
 
 - **PoC** shows whether public proof-of-concept material is known.
 - **EPSS** estimates the probability of exploitation activity.

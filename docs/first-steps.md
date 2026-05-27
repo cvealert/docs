@@ -4,7 +4,7 @@ icon: lucide/footprints
 
 # First Steps
 
-Use this checklist to get CVEalert from a new account to useful alerts. The goal is a focused monitoring setup, not a complete inventory on day one.
+Use this checklist to turn a new CVEalert account into a useful alerting setup. The goal is focused monitoring, not a complete inventory on day one.
 
 ## Onboarding Checklist
 
@@ -16,11 +16,11 @@ Use this checklist to get CVEalert from a new account to useful alerts. The goal
 
 ### 1. Add important software
 
-Start with software that is internet-facing, business-critical, widely deployed, or historically noisy for your team. Use the catalog when possible, and use search when you need to find a specific vendor or product.
+Start with software that is internet-facing, business-critical, widely deployed, or historically noisy for your team. Use Catalog when possible, and use Search when you need a specific vendor or product.
 
 ### 2. Review monitoring thresholds
 
-Open Software Monitoring and choose the minimum severity that should generate alerts for each product. Start with High for broad coverage, then lower or raise thresholds based on business impact and alert volume.
+Open Software Monitoring and choose the minimum severity that should generate alerts for each product. Start with High for broad coverage, then adjust thresholds based on business impact and alert volume.
 
 ### 3. Check the first alerts
 
@@ -28,7 +28,7 @@ Use Alerts to review matching CVEs. Prioritize Critical and High findings first,
 
 ### 4. Configure alert delivery
 
-Set up Slack or Telegram in Integrations so new alerts land where your team already works. Send a test alert before relying on the integration.
+Set up Slack or Telegram in Integrations so new alerts reach the channel or chat your team monitors. Send a test alert before relying on the integration.
 
 ### 5. Secure the account
 
@@ -53,7 +53,7 @@ Enable 2FA for your account and review Logs after major account changes. For tea
 
     ---
 
-    Control what CVEalert tracks and which severities become alerts.
+    Control what CVEalert tracks and which severities create alerts.
 
     [:octicons-arrow-right-24: Open Software Monitoring](software/monitoring/){ data-preview }
 

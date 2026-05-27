@@ -22,7 +22,7 @@ Use the CVE Detail page when you need remediation guidance, affected version ran
 
 ### Use exploitability signals
 
-KEV and PoC filters help separate theoretical risk from vulnerabilities with stronger evidence of real-world exploitation or public exploit material.
+KEV and PoC filters help separate theoretical risk from vulnerabilities with evidence of real-world exploitation or public exploit material.
 
 Prioritize KEV findings when they affect exposed or business-critical systems.
 
@@ -42,7 +42,7 @@ Use statuses to keep triage visible:
 
 ### Update multiple alerts
 
-Bulk status changes are useful when several alerts share the same remediation decision. Use them after confirming that the selected alerts really belong together.
+Bulk status changes are useful when several alerts share the same remediation decision. Use them after confirming that the selected alerts belong together.
 
 ## Notes
 

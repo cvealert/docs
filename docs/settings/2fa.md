@@ -5,7 +5,7 @@ title: 2FA
 
 # Two-Factor Authentication
 
-Use Two-Factor Authentication to require an authenticator code when signing in to your account. This reduces the risk of account takeover if your password is exposed.
+Use Two-Factor Authentication to require an authenticator code when signing in to your account. This reduces account takeover risk if your password is exposed.
 
 [:lucide-external-link: Open in app](https://app.cvealert.io/settings/account/2fa){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 

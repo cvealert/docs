@@ -4,7 +4,7 @@ icon: lucide/layout-dashboard
 
 # Dashboard
 
-Use Dashboard as the daily starting point for vulnerability monitoring. It summarizes recent alerts, critical and high findings, monitored software, activity trends, and external threat intel.
+Use Dashboard as the daily starting point for vulnerability monitoring. It summarizes recent alerts, Critical and High findings, monitored software, activity trends, and external threat intelligence.
 
 [:lucide-external-link: Open in app](https://app.cvealert.io/dashboard){ .md-button .app-link target="_blank" rel="noopener noreferrer" }
 
@@ -27,11 +27,11 @@ For deeper triage, open Alerts and filter by severity, status, KEV, PoC, or sear
 
 ### Find noisy or high-risk software
 
-Use top software and alert activity views to identify products that generate repeated findings. A product with frequent Critical or High alerts may need a stricter patch workflow, a different monitoring threshold, or ownership review.
+Use top software and alert activity views to identify products that generate repeated findings. A product with frequent Critical or High alerts may need a stricter patch workflow, a different monitoring threshold, or an ownership review.
 
-### Scan threat intel
+### Scan threat intelligence
 
-Dashboard includes external signals such as exploited vulnerabilities and security news. Use these signals to catch high-profile issues that may need review even before they appear in your monitored alerts.
+Dashboard includes external signals such as exploited vulnerabilities and security news. Use these signals to catch high-profile issues that may need review before they appear in your monitored alerts.
 
 ## Notes
 
