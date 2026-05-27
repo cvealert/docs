@@ -4,11 +4,13 @@ icon: lucide/scan-search
 
 # Application Preview
 
+This page gives a quick visual tour of the main CVEalert workspaces. Use it to understand where common onboarding and triage tasks happen in the app.
+
 ## Software Catalog
 
-The [Software Catalog](software/catalog/){ data-preview } lets you quickly discover, filter, and add commonly used software to your monitoring list.
+Use [Software Catalog](software/catalog/){ data-preview } to browse known software and add relevant products to monitoring.
 
-![Image title](assets/img/preview/01_catalog.webp){ loading=lazy }
+![Software Catalog preview](assets/img/preview/01_catalog.webp){ loading=lazy }
 /// caption
 Add software to monitoring
 ///
@@ -17,9 +19,9 @@ Add software to monitoring
 
 ## Software Monitoring
 
-The [Software Monitoring](software/monitoring/){ data-preview } page allows you to control which software products your organization monitors for newly disclosed security vulnerabilities (CVEs).
+Use [Software Monitoring](software/monitoring/){ data-preview } to manage tracked software and tune alert thresholds.
 
-![Image title](assets/img/preview/02_monitoring.webp){ loading=lazy }
+![Software Monitoring preview](assets/img/preview/02_monitoring.webp){ loading=lazy }
 /// caption
 Manage monitored software
 ///
@@ -28,9 +30,9 @@ Manage monitored software
 
 ## Software CVEs
 
-The [Software CVEs](software/cves/){ data-preview } for a Software page shows all known Common Vulnerabilities and Exposures (CVEs) associated with a specific software product.
+Use [Software CVEs](software/cves/){ data-preview } to review vulnerabilities linked to software products and narrow results by severity or exploitability signals.
 
-![Image title](assets/img/preview/03_search.webp){ loading=lazy }
+![Software CVEs preview](assets/img/preview/03_search.webp){ loading=lazy }
 /// caption
 Search product vulnerabilities
 ///
@@ -39,9 +41,9 @@ Search product vulnerabilities
 
 ## Alerts
 
-The [Alerts](app/alerts/){ data-preview } page is your main workspace for monitoring, prioritizing, and managing security vulnerabilities detected across your software stack.
+Use [Alerts](app/alerts/){ data-preview } to triage vulnerabilities detected across monitored software.
 
-![Image title](assets/img/preview/04_alerts.webp){ loading=lazy }
+![Alerts preview](assets/img/preview/04_alerts.webp){ loading=lazy }
 /// caption
 Triage detected vulnerabilities
 ///
@@ -50,20 +52,20 @@ Triage detected vulnerabilities
 
 ## CVE Detail
 
-[CVE Detail](app/cve/){ data-preview } foo TODO
+Use [CVE Detail](app/cve/){ data-preview } to investigate severity, affected software, remediation guidance, references, and exploitation context for one CVE.
 
-![Image title](assets/img/preview/05_cve.webp){ loading=lazy }
+![CVE Detail preview](assets/img/preview/05_cve.webp){ loading=lazy }
 /// caption
-**CVE detail** - view vulnerability details
+Investigate one vulnerability
 ///
 
 ---
 
 ## Dashboard
 
-The [Dashboard](app/dashboard/){ data-preview } is your central monitoring hub in CVEalert.io. It gives you a real-time overview of recent vulnerability alerts, severity trends, affected software, and industry security news.
+Use [Dashboard](app/dashboard/){ data-preview } to check recent alerts, severity trends, affected software, and security news at a glance.
 
-![Image title](assets/img/preview/06_dashboard.webp){ loading=lazy }
+![Dashboard preview](assets/img/preview/06_dashboard.webp){ loading=lazy }
 /// caption
 Recent alerts and trends
 ///
@@ -72,9 +74,9 @@ Recent alerts and trends
 
 ## Integrations
 
-[Integrations](settings/integrations/){ data-preview } allow you to receive real-time CVE alerts directly in your communication tools, enabling fast response to newly disclosed vulnerabilities.
+Use [Integrations](settings/integrations/){ data-preview } to send CVE alerts to Slack or Telegram.
 
-![Image title](assets/img/preview/07_webhooks.webp){ loading=lazy }
+![Integrations preview](assets/img/preview/07_integrations.webp){ loading=lazy }
 /// caption
 Configure alert integrations
 ///
@@ -83,9 +85,9 @@ Configure alert integrations
 
 ## Organization
 
-[Organization](settings/organization/){ data-preview } is the main workspace in CVEalert. Each organization represents a company, team, or environment and defines who has access and what is being monitored.
+Use [Organization](settings/organization/){ data-preview } to manage the workspace, members, limits, and billing context for your team.
 
-![Image title](assets/img/preview/08_projects.webp){ loading=lazy }
+![Organization preview](assets/img/preview/08_organization.webp){ loading=lazy }
 /// caption
 Manage organization settings
 ///

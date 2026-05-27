@@ -4,133 +4,54 @@ icon: lucide/message-circle-code
 
 # Integrations
 
-Integrations allow you to receive real-time CVE alerts directly in your communication tools, enabling fast response to newly disclosed vulnerabilities.
-
-!!! info
-    Webhook delivery is the first supported integration type and is ideal for automation and team notifications.
-
----
-
-## Page Overview
-
-### When to use this page
-
-- When setting up real-time notifications for new CVEs
-- When integrating CVE alerts into team communication tools
-- When validating or updating an existing webhook configuration
-- When automating vulnerability notifications
-
-### What you can do
-
-- Configure a webhook for receiving CVE alerts
-- Send test alerts to verify webhook functionality
-- Update or remove existing webhook configurations
-- Review the structure and content of webhook alert messages
-
-### At a Glance
-
-- One webhook per organization
-- Supported integrations (e.g. Slack)
-- Test and validation controls
-- CVE alert payload contents
-
----
-
-## Overview
-
-Each organization can be configured with **one incoming webhook**.
-
-Currently, CVEalert supports **Slack webhooks**.  
-Additional integrations are planned and will be available in future releases.
-
-Webhook integrations are triggered automatically whenever:
-
-- A new CVE is published
-- A CVE affects software in your monitoring list
-- CVE severity or details are updated
-
----
-
-## Slack Webhook
-
-Slack webhooks let you receive CVE alerts directly in a Slack channel.
-
-### Configuration Fields
-
-When configuring a Slack webhook, you'll need to provide:
-
-- **Name**  
-  A friendly name for the webhook (e.g. `Incoming Webhooks`)
-
-- **Slack channel**  
-  The channel where CVE alerts will be posted (e.g. `#alerts-cve`)
-
-- **Description**  
-  Optional description to explain the purpose of the webhook
-
-- **Webhook URL**  
-  Your Slack **Incoming Webhook URL**  
-  This value is required and is stored securely.
-
-> 🔒 For security reasons, the webhook URL is not displayed after saving.
-
----
-
-## Testing a Webhook
-
-Use the **Test Webhook** button to send a sample CVE alert to your configured channel.
-
-This is useful to:
-
-- Verify the webhook URL
-- Confirm channel permissions
-- Preview the alert format
-
-No real monitoring data is affected during testing.
-
----
-
-## Managing Integrations
-
-From the Integrations page, you can:
-
-- **Save changes** to update the webhook configuration
-- **Remove** the webhook to stop all webhook notifications
-- Re-test the webhook at any time
-
-Changes take effect immediately.
-
----
-
-## Alert Format
-
-Webhook alerts include key information such as:
-
-- CVE ID
-- Severity level
-- Affected software
-- Direct link to the CVE details page
-
-This allows teams to quickly assess impact and take action.
-
----
-
-## Upcoming Integrations
-
-The following integrations are planned or optional and will be available in future updates:
-
-- Telegram
-- Custom HTTP Endpoint
-- Microsoft Teams
-- Email (SMTP)
-- JIRA
-- Discord
-- Signal
-- WhatsApp
-
-Availability and configuration options may vary by plan.
-
----
+Use Integrations to send CVE alerts to the tools your team already watches. For MVP, CVEalert supports Slack and Telegram alert delivery.
 
 !!! tip
-    Use a dedicated Slack channel for CVE alerts to keep security notifications visible without disrupting team discussions.
+    Send vulnerability alerts to a dedicated security or operations channel so they stay visible without interrupting unrelated team conversations.
+
+## Common Tasks
+
+### Configure Slack alerts
+
+Slack sends CVE alerts to a channel through an incoming webhook. Add a clear name, the target Slack channel, an optional description, and the Slack webhook URL.
+
+Saved webhook URLs are hidden after submission. If the URL changes, paste the new value and save the integration again.
+
+### Configure Telegram alerts
+
+Telegram sends CVE alerts through a bot-driven chat. Add a clear name, an optional description, the Chat ID, and the Bot token.
+
+Saved bot tokens are hidden after submission. Treat bot tokens like credentials and rotate them if they are exposed.
+
+### Test alert delivery
+
+Use a test alert after creating or changing an integration. Testing confirms that CVEalert can reach the destination and that the channel or chat receives messages in the expected format.
+
+Testing does not change your monitored software or alert history.
+
+### Remove an integration
+
+Remove an integration when a channel is no longer used, a token has been exposed, or alerts should stop going to that destination. Changes apply immediately.
+
+## Planned Integrations
+
+The app also shows planned delivery options:
+
+- Email
+- Custom API
+- RSS
+- CSV Export
+
+These options are not part of the current MVP alert delivery flow.
+
+## Notes
+
+- Slack and Telegram are the supported integrations today.
+- Keep integration credentials restricted to the minimum channels or chats that need CVE alerts.
+- If alerts stop arriving, check the destination permissions first, then send a test alert from CVEalert.
+
+## Related Pages
+
+- [Alerts](../app/alerts/)
+- [Software Monitoring](../software/monitoring/)
+- [Organization](organization/)

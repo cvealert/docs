@@ -2,165 +2,40 @@
 icon: lucide/user-round
 ---
 
-# Account Settings
+# Account
 
-The **Account Settings** page lets you view and manage your personal account information and security settings, including password changes and 2FA status.
-
-!!! note
-    Account settings apply only to your personal account and do not affect organization-level configuration.
-
----
-
-## Page Overview
-
-### When to use this page
-
-- After your first login to review account details
-- When changing your account password
-- When checking the status of security features like email verification or 2FA
-- During routine account maintenance
-
-### What you can do
-
-- View your personal account information
-- Change your account password
-- Verify whether email confirmation and 2FA are enabled
-- Review account metadata such as registration date and identifiers
-
-### At a Glance
-
-- Personal account details
-- Password change controls
-- Email and 2FA security status
-
----
-
-## Layout
-
-The page is divided into two main areas:
-
-- **Account Details** (left side): Displays your personal and account-related information
-- **Password Change** (right side): Allows you to securely update your password
-
-A navigation breadcrumb at the top shows your current location in the app:
-`Settings / Account`
-
----
-
-## Account Details Section
-
-This section displays **read-only information** about your account.
-
-### Personal Information
-
-- **First name**  
-  Your given name as registered during signup.
-
-- **Last name**  
-  Your family name or organization identifier.
-
-- **Email**  
-  The email address associated with your account.  
-  This field is **not editable**.
+Use Account to manage your personal profile, password, and account-level security status. These settings apply to you, not to the whole organization.
 
 !!! note
-    Email address changes are currently not supported. If you need to update your email, you may need to contact support.
+    Organization membership, roles, billing, monitoring, and integrations are managed from organization-scoped pages.
 
----
+## Common Tasks
 
-### Account Metadata
+### Update profile details
 
-- **Account UUID**  
-  A unique identifier for your account (used internally and for support).
+Keep your first and last name accurate so other organization members can identify you in member lists, invitations, and access reviews.
 
-- **Registered**  
-  Shows the date your account was created.
+Your email address is shown for reference. If it cannot be edited in the app, contact support when it needs to change.
 
-- **Last Password Change**  
-  Indicates when your password was last updated.
+### Review security status
 
----
+Check whether your email is verified and whether 2FA is enabled. If 2FA is disabled, enable it before relying on the account for production monitoring or alert delivery.
 
-### Security Status Indicators
+### Change your password
 
-- **Email Confirmed**  
-  - ✅ Green check means your email address has been verified
-  - Email verification is required for full account functionality
+Use a unique password stored in a password manager. CVEalert requires a password between 12 and 64 characters.
 
-- **2FA Enabled**  
-  - ❌ Red indicator means two-factor authentication is currently disabled
-  - Strongly recommended for improved account security
+Change your password if you suspect it was reused, shared, exposed, or entered on an untrusted device.
 
 !!! warning
-    Accounts without 2FA enabled are more vulnerable to unauthorized access.
+    If you suspect account compromise, change your password, enable 2FA, review Logs, and rotate any integration credentials that may have been exposed.
 
----
+### Find account details for support
 
-## Password Change Section
+Account metadata such as registration date, last password change, and account identifiers can help support investigate account-specific issues.
 
-This section allows you to securely update your account password.
+## Related Pages
 
-### Fields
-
-- **Old password**  
-  Enter your current password to authorize the change.
-
-- **New password**  
-  Enter your new desired password.
-
-- **Confirm new password**  
-  Re-enter the new password to prevent typing mistakes.
-
-- **Password strength indicator**  
-  Visually shows how strong your new password is based on length and complexity.
-
-!!! note
-    Passwords must be **12–64 characters long** and should be unique.
-
----
-
-### Actions
-
-- **Save changes**  
-  Saves any changes made on the page (including password updates).
-
-- **Change password**  
-  Focuses on updating your password after all required fields are filled correctly.
-
----
-
-## Step-by-Step: Changing Your Password
-
-1. Navigate to **Settings → Account**
-2. In the **Password Change** section, enter your **old password**
-3. Enter a **new password** that meets the length requirements
-4. Re-enter the new password in **Confirm new password**
-5. Review the password strength indicator
-6. Click **Save changes**
-7. If successful, your password is immediately updated
-
-✅ **Expected result:** Your new password is active and will be required at your next login.
-
----
-
-## Tips & Best Practices
-
-!!! tip
-    Use a password manager to generate and store a strong, unique password.
-
-!!! tip
-    Enable **two-factor authentication (2FA)** after setting a new password for maximum security.
-
-!!! warning
-    If you forget your password after changing it, you will need to use the password recovery flow.
-
----
-
-## Advanced Notes
-
-- Email editing is intentionally disabled to prevent account takeover risks.
-- The **Account UUID** can be useful when contacting support or referencing API-related issues.
-- Password changes may invalidate existing sessions (assumption based on standard security practice).
-
-!!! note
-    If some behavior differs (e.g., session invalidation), refer to your organization's security policy or contact support.
+- [Two-Factor Authentication](2fa/)
+- [Logs](logs/)
+- [Organization](organization/)

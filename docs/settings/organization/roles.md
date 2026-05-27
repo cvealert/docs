@@ -4,77 +4,48 @@ icon: lucide/archive
 
 # Roles
 
-## Overview
-
-Roles define what actions a member can perform within an organization. Roles control access to organization configuration, vulnerability triage, integrations, and administrative operations.
-
-Permissions are enforced both in the web application and the API.
+Roles define what members can do inside an organization. Use them to keep billing, member management, monitoring, and triage access aligned with each person's responsibility.
 
 !!! tip
-    Roles apply across the organization.
-
----
+    Assign the least privilege role that still lets the member do their job.
 
 ## Available Roles
 
-You can configure the following roles per organization:
+| Role | Best for | Access level |
+| --- | --- | --- |
+| Admin | Organization owners, billing owners, security leads | Full organization access |
+| Analyst | Security, AppSec, DevOps, SRE, and engineering responders | Can manage monitoring, alerts, and integrations |
+| Viewer | Auditors, managers, stakeholders, read-only reviewers | Can view organization data without changing it |
 
-| Role        | Description                                                                          |
-| ----------- | ------------------------------------------------------------------------------------ |
-| **Admin**   | `Full access to the organization, including member management, billing, and configuration.` |
-| **Analyst** | `Can triage CVEs, manage monitored software, and configure integrations.`            |
-| **Viewer**  | `Read-only access to organization data, including alerts and monitored software.`    |
+## How To Choose A Role
 
----
+### Admin
 
-## API Access
+Use Admin for people who manage the workspace itself. Admins can manage members, invitations, billing, organization settings, monitoring, alerts, and integrations.
 
-All API endpoints are available under the following base path:
+Keep this group small because Admin access can affect the whole organization.
 
-- `/api/v1/*`
+### Analyst
 
-Health endpoints:
+Use Analyst for people who work on vulnerability triage and response. Analysts can manage monitored software, update alert status, review CVE details, and configure integrations needed for response workflows.
 
- - [app.cvealert.io/api/v1/health](https://app.cvealert.io/api/v1/health)
- - [api.cvealert.io/v1/health](https://api.cvealert.io/v1/health)
+This is the usual role for security engineers, AppSec engineers, DevOps, and SREs.
 
----
+### Viewer
 
-## Permission Legend
+Use Viewer for people who need visibility but should not change data. Viewers can review dashboards, monitored software, alerts, and CVE information.
 
-| Icon                 | Meaning                    |
-| -------------------- | -------------------------- |
-| :lucide-check:       | Read access                |
-| :lucide-check-check: | Create or update resources |
-| :lucide-x:           | Destructive operation      |
+This is useful for leadership, auditors, compliance reviewers, and stakeholders who need status visibility.
 
----
+## Notes
 
-## Role Permissions
+- Review Admin membership regularly.
+- Prefer Viewer for people who only need reporting or audit visibility.
+- Use Analyst when a member needs to update monitoring or alert status but should not manage billing or organization membership.
 
-The following table describes which roles are allowed to access specific API operations.
+## Related Pages
 
-| Endpoint                      | Method   | Allowed Roles  | Description                                        |
-| ----------------------------- | -------- | -------------- | -------------------------------------------------- |
-| `/project`                    | `PUT`    | Admin, Analyst | :lucide-check-check: Rename organization           |
-| `/project/billing`            | `GET`    | Admin          | :lucide-check:       Access organization billing portal |
-| `/project/users/invite`       | `POST`   | Admin          | :lucide-check-check: Invite member to organization |
-|                               | `DELETE` | Admin          | :lucide-x:           Delete organization invitation |
-| `/project/users/remove`       | `POST`   | Admin          | :lucide-check-check: Remove member from organization |
-| `/project/users/role`         | `POST`   | Admin          | :lucide-check-check: Update organization member role |
-| `/alerts/status`              | `PATCH`  | Admin, Analyst | :lucide-check-check: Update alert status           |
-| `/software/monitoring`        | `POST`   | Admin, Analyst | :lucide-check-check: Add software to monitoring    |
-| `/software/monitoring/{uuid}` | `PATCH`  | Admin, Analyst | :lucide-check-check: Update monitoring entry       |
-|                               | `DELETE` | Admin, Analyst | :lucide-x:           Delete monitoring entry       |
-| `/webhooks`                   | `POST`   | Admin, Analyst | :lucide-check-check: Create or update webhook      |
-|                               | `DELETE` | Admin, Analyst | :lucide-x:           Delete existing webhook       |
-
----
-
-## Notes and Limitations
-
-!!! tip
-    Use the **Viewer** role for dashboards, auditing, or stakeholders who only need visibility into vulnerabilities.
-
-!!! warning
-    Privileged actions such as **inviting members, changing roles, and accessing billing** are restricted to the **Admin**.
+- [Organization](../organization.md)
+- [Alerts](../../app/alerts/)
+- [Software Monitoring](../../software/monitoring/)
+- [Integrations](../integrations/)
