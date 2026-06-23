@@ -15,12 +15,18 @@ Copyright &copy; 2025 CVEalert.io
 """
 nav = [
   { "Getting Started" = [
-    { "Overview" = "index.md" },
-    { "Preview" = "preview.md" },
-    { "First Steps" = "first-steps.md" },
-    { "Registration" = "registration.md" },
-    { "Login" = "login.md" },
-    { "FAQ" = "faq.md" },
+    { "Welcome" = [
+      { "Overview" = "index.md" },
+      { "Preview" = "preview.md" },
+    ] },
+    { "Account setup" = [
+      { "Registration" = "registration.md" },
+      { "Login" = "login.md" },
+      { "First Steps" = "first-steps.md" },
+    ] },
+    { "Help" = [
+      { "FAQ" = "faq.md" },
+    ] },
   ] },
   { "Application" = [
     { "Dashboard" = "app/dashboard.md" },
@@ -34,12 +40,21 @@ nav = [
     { "Search" = "software/search.md" },
   ] },
   { "Settings" = [
-    { "Organization" = "settings/organization.md" },
-    { "Roles" = "settings/organization/roles.md" },
-    { "Integrations" = "settings/integrations.md" },
-    { "Account" = "settings/account.md" },
-    { "2FA" = "settings/2fa.md" },
-    { "Logs" = "settings/logs.md" },
+    { "Organization" = [
+      { "Organization" = "settings/organization.md" },
+      { "Roles" = "settings/organization/roles.md" },
+    ] },
+    { "Integrations" = [
+      { "Integrations" = "settings/integrations.md" },
+    ] },
+    { "Account" = [
+      { "Account" = "settings/account.md" },
+      { "Delete" = "settings/account-delete.md" },
+      { "2FA" = "settings/2fa.md" },
+    ] },
+    { "Audit" = [
+      { "Logs" = "settings/logs.md" },
+    ] },
   ] },
 ]
 
@@ -51,6 +66,7 @@ features = [
   "content.action.edit",
   "content.action.view",
   "content.tooltips",
+  "navigation.sections",
   "navigation.tabs",
 ]
 
