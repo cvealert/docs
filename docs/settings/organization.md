@@ -27,7 +27,9 @@ Remove members when they leave the team or no longer need access.
 
 ### Invite new members
 
-Invite members by email and assign a role that matches their work. Invitations must be accepted before the member can access the organization.
+Invite new users by email. Invitations must be accepted before the person can access the organization.
+
+Accepted invitations start with Viewer access. After the account joins the organization, an Admin can update the member's role.
 
 Expired or incorrect invitations can be removed and recreated.
 
@@ -43,6 +45,7 @@ Admins can open billing and invoices from the Organization page. Billing changes
 
 ## Related Pages
 
+- [Invitations](organization/invitations/)
 - [Roles](organization/roles/)
 - [Software Monitoring](../software/monitoring/)
 - [Integrations](integrations/)

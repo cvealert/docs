@@ -43,6 +43,7 @@ nav = [
     { "Organization" = [
       { "Organization" = "settings/organization.md" },
       { "Billing" = "settings/organization/billing.md" },
+      { "Invitations" = "settings/organization/invitations.md" },
       { "Roles" = "settings/organization/roles.md" },
     ] },
     { "Integrations" = [
